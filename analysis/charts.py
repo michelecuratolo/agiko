@@ -65,7 +65,7 @@ def comparison(card, games):
              "faded = fewer than 20 cases.", fontsize=10, color=INK2)
     fig.text(0.012, 0.02, "Games: " + ", ".join(f"{l.replace(chr(10), ' ')} {games[m]}" for m, l, _c in MODELS)
              + ".  Claude on rules v5; open models on v6 (which also shows where AI Center sites are), run locally with a 12,000-token reply cap.  "
-             "github.com/OWNER/agiko", fontsize=9, color=INK2)
+             "github.com/michelecuratolo/agiko", fontsize=9, color=INK2)
     fig.tight_layout(rect=(0, 0.05, 1, 0.9))
     out = os.path.join(ROOT, "docs", "comparison.png")
     fig.savefig(out, dpi=150)
