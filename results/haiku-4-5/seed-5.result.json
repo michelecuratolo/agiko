@@ -1,0 +1,81 @@
+{
+ "seed": 5,
+ "ticks": 1500,
+ "seats": {
+  "red": "neutral@haiku",
+  "blue": "neutral@haiku",
+  "green": "neutral@haiku",
+  "yellow": "neutral@haiku"
+ },
+ "winner": "red",
+ "factions": {
+  "red": {
+   "agent": "neutral@haiku",
+   "score": 6315.2,
+   "gathered": 12828,
+   "kills": 96,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-haiku-4-5-20251001",
+   "decisions": 60,
+   "usage": {
+    "in": 244111,
+    "out": 33020,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": 0.4092
+  },
+  "blue": {
+   "agent": "neutral@haiku",
+   "score": 5764.2,
+   "gathered": 13010,
+   "kills": 85,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-haiku-4-5-20251001",
+   "decisions": 60,
+   "usage": {
+    "in": 233396,
+    "out": 35030,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": 0.4085
+  },
+  "green": {
+   "agent": "neutral@haiku",
+   "score": 4930.2,
+   "gathered": 12360,
+   "kills": 45,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-haiku-4-5-20251001",
+   "decisions": 60,
+   "usage": {
+    "in": 236883,
+    "out": 34200,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": 0.4079
+  },
+  "yellow": {
+   "agent": "neutral@haiku",
+   "score": 4313.4,
+   "gathered": 9134,
+   "kills": 9,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-haiku-4-5-20251001",
+   "decisions": 60,
+   "usage": {
+    "in": 231031,
+    "out": 34708,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": 0.4046
+  }
+ }
+}

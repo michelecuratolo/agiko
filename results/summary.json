@@ -1,0 +1,2693 @@
+{
+ "games": [
+  {
+   "file": "results/gemma4-26b/seed-1.jsonl",
+   "seed": 1,
+   "ticks": 646,
+   "model": "gemma4:26b",
+   "winner": "yellow",
+   "starts": [
+    [
+     315,
+     "green"
+    ],
+    [
+     334,
+     "blue"
+    ],
+    [
+     346,
+     "yellow"
+    ],
+    [
+     353,
+     "red"
+    ],
+    [
+     590,
+     "green"
+    ]
+   ],
+   "destroyed": [
+    [
+     492,
+     "yellow",
+     "green"
+    ]
+   ],
+   "victory": [
+    646,
+    "yellow"
+   ],
+   "pacts": 0,
+   "wars": 2,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 315,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 1
+  },
+  {
+   "file": "results/gemma4-26b/seed-10.jsonl",
+   "seed": 10,
+   "ticks": 632,
+   "model": "gemma4:26b",
+   "winner": "red",
+   "starts": [
+    [
+     328,
+     "red"
+    ],
+    [
+     334,
+     "blue"
+    ],
+    [
+     340,
+     "green"
+    ],
+    [
+     346,
+     "yellow"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    632,
+    "red"
+   ],
+   "pacts": 0,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 328,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/gemma4-26b/seed-11.jsonl",
+   "seed": 11,
+   "ticks": 608,
+   "model": "gemma4:26b",
+   "winner": "red",
+   "starts": [
+    [
+     303,
+     "red"
+    ],
+    [
+     340,
+     "green"
+    ],
+    [
+     359,
+     "blue"
+    ],
+    [
+     371,
+     "yellow"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    608,
+    "red"
+   ],
+   "pacts": 1,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 303,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/gemma4-26b/seed-12.jsonl",
+   "seed": 12,
+   "ticks": 821,
+   "model": "gemma4:26b",
+   "winner": "green",
+   "starts": [
+    [
+     334,
+     "blue"
+    ],
+    [
+     353,
+     "red"
+    ],
+    [
+     371,
+     "yellow"
+    ],
+    [
+     490,
+     "green"
+    ]
+   ],
+   "destroyed": [
+    [
+     390,
+     "green",
+     "blue"
+    ],
+    [
+     598,
+     "green",
+     "red"
+    ],
+    [
+     661,
+     "green",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    821,
+    "green"
+   ],
+   "pacts": 0,
+   "wars": 5,
+   "betrayals": 0,
+   "first_starter": "blue",
+   "first_start_tick": 334,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 3
+  },
+  {
+   "file": "results/gemma4-26b/seed-2.jsonl",
+   "seed": 2,
+   "ticks": 695,
+   "model": "gemma4:26b",
+   "winner": "red",
+   "starts": [
+    [
+     315,
+     "green"
+    ],
+    [
+     378,
+     "red"
+    ],
+    [
+     384,
+     "blue"
+    ],
+    [
+     471,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     374,
+     "blue",
+     "green"
+    ],
+    [
+     505,
+     "red",
+     "blue"
+    ]
+   ],
+   "victory": [
+    695,
+    "red"
+   ],
+   "pacts": 0,
+   "wars": 4,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 315,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 2
+  },
+  {
+   "file": "results/gemma4-26b/seed-3.jsonl",
+   "seed": 3,
+   "ticks": 660,
+   "model": "gemma4:26b",
+   "winner": "blue",
+   "starts": [
+    [
+     340,
+     "green"
+    ],
+    [
+     346,
+     "yellow"
+    ],
+    [
+     359,
+     "blue"
+    ],
+    [
+     428,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     397,
+     "red",
+     "yellow"
+    ],
+    [
+     565,
+     "yellow",
+     "green"
+    ]
+   ],
+   "victory": [
+    660,
+    "blue"
+   ],
+   "pacts": 0,
+   "wars": 6,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 340,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 2
+  },
+  {
+   "file": "results/gemma4-26b/seed-4.jsonl",
+   "seed": 4,
+   "ticks": 668,
+   "model": "gemma4:26b",
+   "winner": "green",
+   "starts": [
+    [
+     346,
+     "yellow"
+    ],
+    [
+     359,
+     "blue"
+    ],
+    [
+     365,
+     "green"
+    ],
+    [
+     403,
+     "red"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    668,
+    "green"
+   ],
+   "pacts": 0,
+   "wars": 1,
+   "betrayals": 0,
+   "first_starter": "yellow",
+   "first_start_tick": 346,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/gemma4-26b/seed-5.jsonl",
+   "seed": 5,
+   "ticks": 655,
+   "model": "gemma4:26b",
+   "winner": "red",
+   "starts": [
+    [
+     309,
+     "blue"
+    ],
+    [
+     353,
+     "red"
+    ],
+    [
+     390,
+     "green"
+    ],
+    [
+     446,
+     "yellow"
+    ],
+    [
+     559,
+     "blue"
+    ]
+   ],
+   "destroyed": [
+    [
+     427,
+     "yellow",
+     "blue"
+    ]
+   ],
+   "victory": [
+    655,
+    "red"
+   ],
+   "pacts": 0,
+   "wars": 4,
+   "betrayals": 0,
+   "first_starter": "blue",
+   "first_start_tick": 309,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 1
+  },
+  {
+   "file": "results/gemma4-26b/seed-6.jsonl",
+   "seed": 6,
+   "ticks": 631,
+   "model": "gemma4:26b",
+   "winner": "red",
+   "starts": [
+    [
+     328,
+     "red"
+    ],
+    [
+     334,
+     "blue"
+    ],
+    [
+     371,
+     "yellow"
+    ],
+    [
+     390,
+     "green"
+    ],
+    [
+     546,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     467,
+     "green",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    631,
+    "red"
+   ],
+   "pacts": 0,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 328,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 5,
+   "sites_destroyed": 1
+  },
+  {
+   "file": "results/gemma4-26b/seed-7.jsonl",
+   "seed": 7,
+   "ticks": 616,
+   "model": "gemma4:26b",
+   "winner": "green",
+   "starts": [
+    [
+     309,
+     "blue"
+    ],
+    [
+     315,
+     "green"
+    ],
+    [
+     353,
+     "red"
+    ],
+    [
+     371,
+     "yellow"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    616,
+    "green"
+   ],
+   "pacts": 1,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "blue",
+   "first_start_tick": 309,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/gemma4-26b/seed-8.jsonl",
+   "seed": 8,
+   "ticks": 667,
+   "model": "gemma4:26b",
+   "winner": "green",
+   "starts": [
+    [
+     303,
+     "red"
+    ],
+    [
+     334,
+     "blue"
+    ],
+    [
+     365,
+     "green"
+    ],
+    [
+     496,
+     "yellow"
+    ],
+    [
+     503,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     464,
+     "blue",
+     "red"
+    ],
+    [
+     613,
+     "red",
+     "blue"
+    ]
+   ],
+   "victory": [
+    667,
+    "green"
+   ],
+   "pacts": 1,
+   "wars": 5,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 303,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 2
+  },
+  {
+   "file": "results/gemma4-26b/seed-9.jsonl",
+   "seed": 9,
+   "ticks": 606,
+   "model": "gemma4:26b",
+   "winner": "red",
+   "starts": [
+    [
+     303,
+     "red"
+    ],
+    [
+     334,
+     "blue"
+    ],
+    [
+     415,
+     "green"
+    ],
+    [
+     421,
+     "yellow"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    606,
+    "red"
+   ],
+   "pacts": 0,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 303,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-1.jsonl",
+   "seed": 1,
+   "ticks": 908,
+   "model": "gpt-oss:20b",
+   "winner": "red",
+   "starts": [
+    [
+     365,
+     "green"
+    ],
+    [
+     603,
+     "red"
+    ],
+    [
+     846,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     641,
+     "yellow",
+     "green"
+    ]
+   ],
+   "victory": [
+    908,
+    "red"
+   ],
+   "pacts": 3,
+   "wars": 4,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 365,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 3,
+   "sites_destroyed": 1
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-10.jsonl",
+   "seed": 10,
+   "ticks": 827,
+   "model": "gpt-oss:20b",
+   "winner": "green",
+   "starts": [
+    [
+     384,
+     "blue"
+    ],
+    [
+     471,
+     "yellow"
+    ],
+    [
+     503,
+     "red"
+    ],
+    [
+     515,
+     "green"
+    ],
+    [
+     671,
+     "yellow"
+    ],
+    [
+     684,
+     "blue"
+    ]
+   ],
+   "destroyed": [
+    [
+     457,
+     "red",
+     "blue"
+    ],
+    [
+     540,
+     "red",
+     "yellow"
+    ],
+    [
+     743,
+     "red",
+     "blue"
+    ]
+   ],
+   "victory": [
+    827,
+    "green"
+   ],
+   "pacts": 1,
+   "wars": 2,
+   "betrayals": 0,
+   "first_starter": "blue",
+   "first_start_tick": 384,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 6,
+   "sites_destroyed": 3
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-11.jsonl",
+   "seed": 11,
+   "ticks": 1500,
+   "model": "gpt-oss:20b",
+   "winner": "green",
+   "starts": [
+    [
+     371,
+     "yellow"
+    ],
+    [
+     503,
+     "red"
+    ],
+    [
+     603,
+     "red"
+    ],
+    [
+     609,
+     "blue"
+    ],
+    [
+     715,
+     "green"
+    ],
+    [
+     1046,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     492,
+     "green",
+     "yellow"
+    ],
+    [
+     598,
+     "blue",
+     "red"
+    ],
+    [
+     656,
+     "green",
+     "red"
+    ],
+    [
+     709,
+     "green",
+     "blue"
+    ],
+    [
+     840,
+     "yellow",
+     "green"
+    ],
+    [
+     1105,
+     "green",
+     "yellow"
+    ]
+   ],
+   "victory": null,
+   "pacts": 1,
+   "wars": 7,
+   "betrayals": 0,
+   "first_starter": "yellow",
+   "first_start_tick": 371,
+   "won_by": "score at time limit",
+   "first_starter_won": false,
+   "sites_started": 6,
+   "sites_destroyed": 6
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-12.jsonl",
+   "seed": 12,
+   "ticks": 1156,
+   "model": "gpt-oss:20b",
+   "winner": "blue",
+   "starts": [
+    [
+     471,
+     "yellow"
+    ],
+    [
+     565,
+     "green"
+    ],
+    [
+     646,
+     "yellow"
+    ],
+    [
+     665,
+     "green"
+    ],
+    [
+     834,
+     "blue"
+    ]
+   ],
+   "destroyed": [
+    [
+     553,
+     "red",
+     "yellow"
+    ],
+    [
+     622,
+     "red",
+     "green"
+    ],
+    [
+     665,
+     "blue",
+     "yellow"
+    ],
+    [
+     712,
+     "blue",
+     "green"
+    ]
+   ],
+   "victory": [
+    1156,
+    "blue"
+   ],
+   "pacts": 0,
+   "wars": 6,
+   "betrayals": 0,
+   "first_starter": "yellow",
+   "first_start_tick": 471,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 4
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-2.jsonl",
+   "seed": 2,
+   "ticks": 1285,
+   "model": "gpt-oss:20b",
+   "winner": "blue",
+   "starts": [
+    [
+     403,
+     "red"
+    ],
+    [
+     490,
+     "green"
+    ],
+    [
+     584,
+     "blue"
+    ],
+    [
+     690,
+     "green"
+    ],
+    [
+     696,
+     "yellow"
+    ],
+    [
+     878,
+     "red"
+    ],
+    [
+     890,
+     "green"
+    ],
+    [
+     921,
+     "yellow"
+    ],
+    [
+     959,
+     "blue"
+    ],
+    [
+     1128,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     550,
+     "blue",
+     "red"
+    ],
+    [
+     635,
+     "blue",
+     "green"
+    ],
+    [
+     769,
+     "blue",
+     "yellow"
+    ],
+    [
+     807,
+     "green",
+     "blue"
+    ],
+    [
+     872,
+     "red",
+     "green"
+    ],
+    [
+     958,
+     "red",
+     "yellow"
+    ],
+    [
+     1066,
+     "red",
+     "green"
+    ],
+    [
+     1105,
+     "green",
+     "red"
+    ]
+   ],
+   "victory": [
+    1285,
+    "blue"
+   ],
+   "pacts": 5,
+   "wars": 5,
+   "betrayals": 1,
+   "first_starter": "red",
+   "first_start_tick": 403,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 10,
+   "sites_destroyed": 8
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-3.jsonl",
+   "seed": 3,
+   "ticks": 761,
+   "model": "gpt-oss:20b",
+   "winner": "blue",
+   "starts": [
+    [
+     428,
+     "red"
+    ],
+    [
+     459,
+     "blue"
+    ],
+    [
+     471,
+     "yellow"
+    ],
+    [
+     490,
+     "green"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    761,
+    "blue"
+   ],
+   "pacts": 0,
+   "wars": 5,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 428,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-4.jsonl",
+   "seed": 4,
+   "ticks": 965,
+   "model": "gpt-oss:20b",
+   "winner": "green",
+   "starts": [
+    [
+     415,
+     "green"
+    ],
+    [
+     609,
+     "blue"
+    ],
+    [
+     628,
+     "red"
+    ],
+    [
+     665,
+     "green"
+    ],
+    [
+     784,
+     "blue"
+    ],
+    [
+     853,
+     "red"
+    ],
+    [
+     896,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     485,
+     "yellow",
+     "green"
+    ],
+    [
+     707,
+     "yellow",
+     "blue"
+    ],
+    [
+     804,
+     "yellow",
+     "red"
+    ],
+    [
+     959,
+     "red",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    965,
+    "green"
+   ],
+   "pacts": 2,
+   "wars": 5,
+   "betrayals": 1,
+   "first_starter": "green",
+   "first_start_tick": 415,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 7,
+   "sites_destroyed": 4
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-5.jsonl",
+   "seed": 5,
+   "ticks": 944,
+   "model": "gpt-oss:20b",
+   "winner": "green",
+   "starts": [
+    [
+     415,
+     "green"
+    ],
+    [
+     459,
+     "blue"
+    ],
+    [
+     603,
+     "red"
+    ],
+    [
+     615,
+     "green"
+    ],
+    [
+     646,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     492,
+     "red",
+     "green"
+    ],
+    [
+     545,
+     "red",
+     "blue"
+    ]
+   ],
+   "victory": [
+    944,
+    "green"
+   ],
+   "pacts": 1,
+   "wars": 5,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 415,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 5,
+   "sites_destroyed": 2
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-6.jsonl",
+   "seed": 6,
+   "ticks": 1500,
+   "model": "gpt-oss:20b",
+   "winner": "green",
+   "starts": [
+    [
+     384,
+     "blue"
+    ],
+    [
+     565,
+     "green"
+    ],
+    [
+     821,
+     "yellow"
+    ],
+    [
+     865,
+     "green"
+    ],
+    [
+     878,
+     "red"
+    ],
+    [
+     946,
+     "yellow"
+    ],
+    [
+     1140,
+     "green"
+    ],
+    [
+     1428,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     536,
+     "red",
+     "blue"
+    ],
+    [
+     843,
+     "yellow",
+     "green"
+    ],
+    [
+     890,
+     "red",
+     "green"
+    ],
+    [
+     932,
+     "red",
+     "yellow"
+    ],
+    [
+     991,
+     "red",
+     "yellow"
+    ],
+    [
+     1054,
+     "blue",
+     "red"
+    ],
+    [
+     1335,
+     "yellow",
+     "green"
+    ]
+   ],
+   "victory": null,
+   "pacts": 2,
+   "wars": 7,
+   "betrayals": 1,
+   "first_starter": "blue",
+   "first_start_tick": 384,
+   "won_by": "score at time limit",
+   "first_starter_won": false,
+   "sites_started": 8,
+   "sites_destroyed": 7
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-7.jsonl",
+   "seed": 7,
+   "ticks": 905,
+   "model": "gpt-oss:20b",
+   "winner": "yellow",
+   "starts": [
+    [
+     440,
+     "green"
+    ],
+    [
+     478,
+     "red"
+    ],
+    [
+     509,
+     "blue"
+    ],
+    [
+     596,
+     "yellow"
+    ],
+    [
+     728,
+     "red"
+    ],
+    [
+     759,
+     "blue"
+    ]
+   ],
+   "destroyed": [
+    [
+     509,
+     "blue",
+     "green"
+    ],
+    [
+     696,
+     "red",
+     "blue"
+    ],
+    [
+     715,
+     "blue",
+     "red"
+    ],
+    [
+     750,
+     "blue",
+     "red"
+    ],
+    [
+     784,
+     "red",
+     "blue"
+    ]
+   ],
+   "victory": [
+    905,
+    "yellow"
+   ],
+   "pacts": 0,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 440,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 6,
+   "sites_destroyed": 5
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-8.jsonl",
+   "seed": 8,
+   "ticks": 795,
+   "model": "gpt-oss:20b",
+   "winner": "red",
+   "starts": [
+    [
+     365,
+     "green"
+    ],
+    [
+     384,
+     "blue"
+    ],
+    [
+     421,
+     "yellow"
+    ],
+    [
+     478,
+     "red"
+    ],
+    [
+     584,
+     "blue"
+    ],
+    [
+     615,
+     "green"
+    ],
+    [
+     646,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     471,
+     "blue",
+     "green"
+    ],
+    [
+     543,
+     "green",
+     "blue"
+    ],
+    [
+     606,
+     "red",
+     "yellow"
+    ],
+    [
+     703,
+     "red",
+     "blue"
+    ]
+   ],
+   "victory": [
+    795,
+    "red"
+   ],
+   "pacts": 2,
+   "wars": 5,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 365,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 7,
+   "sites_destroyed": 4
+  },
+  {
+   "file": "results/gpt-oss-20b/seed-9.jsonl",
+   "seed": 9,
+   "ticks": 1046,
+   "model": "gpt-oss:20b",
+   "winner": "blue",
+   "starts": [
+    [
+     515,
+     "green"
+    ],
+    [
+     634,
+     "blue"
+    ],
+    [
+     721,
+     "yellow"
+    ],
+    [
+     734,
+     "blue"
+    ],
+    [
+     821,
+     "yellow"
+    ],
+    [
+     896,
+     "yellow"
+    ],
+    [
+     1003,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     595,
+     "blue",
+     "green"
+    ],
+    [
+     728,
+     "yellow",
+     "blue"
+    ],
+    [
+     812,
+     "red",
+     "yellow"
+    ],
+    [
+     836,
+     "red",
+     "yellow"
+    ],
+    [
+     921,
+     "green",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    1046,
+    "blue"
+   ],
+   "pacts": 0,
+   "wars": 6,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 515,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 7,
+   "sites_destroyed": 5
+  },
+  {
+   "file": "results/haiku-4-5/seed-1.jsonl",
+   "seed": 1,
+   "ticks": 1147,
+   "model": "claude-haiku-4-5-20251001",
+   "winner": "blue",
+   "starts": [
+    [
+     690,
+     "green"
+    ],
+    [
+     703,
+     "red"
+    ],
+    [
+     834,
+     "blue"
+    ]
+   ],
+   "destroyed": [
+    [
+     977,
+     "yellow",
+     "green"
+    ],
+    [
+     1090,
+     "yellow",
+     "red"
+    ]
+   ],
+   "victory": [
+    1147,
+    "blue"
+   ],
+   "pacts": 9,
+   "wars": 4,
+   "betrayals": 2,
+   "first_starter": "green",
+   "first_start_tick": 690,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 3,
+   "sites_destroyed": 2
+  },
+  {
+   "file": "results/haiku-4-5/seed-2.jsonl",
+   "seed": 2,
+   "ticks": 1167,
+   "model": "claude-haiku-4-5-20251001",
+   "winner": "red",
+   "starts": [
+    [
+     759,
+     "blue"
+    ],
+    [
+     853,
+     "red"
+    ],
+    [
+     865,
+     "green"
+    ],
+    [
+     940,
+     "green"
+    ],
+    [
+     971,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     815,
+     "green",
+     "blue"
+    ],
+    [
+     936,
+     "yellow",
+     "green"
+    ],
+    [
+     952,
+     "yellow",
+     "green"
+    ],
+    [
+     1060,
+     "red",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    1167,
+    "red"
+   ],
+   "pacts": 6,
+   "wars": 4,
+   "betrayals": 3,
+   "first_starter": "blue",
+   "first_start_tick": 759,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 4
+  },
+  {
+   "file": "results/haiku-4-5/seed-3.jsonl",
+   "seed": 3,
+   "ticks": 1303,
+   "model": "claude-haiku-4-5-20251001",
+   "winner": "green",
+   "starts": [
+    [
+     634,
+     "blue"
+    ],
+    [
+     665,
+     "green"
+    ],
+    [
+     803,
+     "red"
+    ],
+    [
+     859,
+     "blue"
+    ],
+    [
+     896,
+     "yellow"
+    ],
+    [
+     915,
+     "green"
+    ],
+    [
+     928,
+     "red"
+    ],
+    [
+     996,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     717,
+     "red",
+     "blue"
+    ],
+    [
+     780,
+     "red",
+     "green"
+    ],
+    [
+     891,
+     "yellow",
+     "red"
+    ],
+    [
+     950,
+     "yellow",
+     "blue"
+    ],
+    [
+     992,
+     "red",
+     "yellow"
+    ],
+    [
+     1015,
+     "red",
+     "yellow"
+    ],
+    [
+     1131,
+     "blue",
+     "red"
+    ]
+   ],
+   "victory": [
+    1303,
+    "green"
+   ],
+   "pacts": 5,
+   "wars": 5,
+   "betrayals": 1,
+   "first_starter": "blue",
+   "first_start_tick": 634,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 8,
+   "sites_destroyed": 7
+  },
+  {
+   "file": "results/haiku-4-5/seed-4.jsonl",
+   "seed": 4,
+   "ticks": 1296,
+   "model": "claude-haiku-4-5-20251001",
+   "winner": "yellow",
+   "starts": [
+    [
+     740,
+     "green"
+    ],
+    [
+     759,
+     "blue"
+    ],
+    [
+     821,
+     "yellow"
+    ],
+    [
+     978,
+     "red"
+    ],
+    [
+     1015,
+     "green"
+    ]
+   ],
+   "destroyed": [
+    [
+     956,
+     "red",
+     "green"
+    ],
+    [
+     1012,
+     "green",
+     "blue"
+    ],
+    [
+     1016,
+     "blue",
+     "red"
+    ],
+    [
+     1049,
+     "yellow",
+     "green"
+    ]
+   ],
+   "victory": [
+    1296,
+    "yellow"
+   ],
+   "pacts": 3,
+   "wars": 4,
+   "betrayals": 1,
+   "first_starter": "green",
+   "first_start_tick": 740,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 4
+  },
+  {
+   "file": "results/haiku-4-5/seed-5.jsonl",
+   "seed": 5,
+   "ticks": 1500,
+   "model": "claude-haiku-4-5-20251001",
+   "winner": "red",
+   "starts": [
+    [
+     765,
+     "green"
+    ],
+    [
+     865,
+     "green"
+    ],
+    [
+     1034,
+     "blue"
+    ],
+    [
+     1103,
+     "red"
+    ],
+    [
+     1115,
+     "green"
+    ]
+   ],
+   "destroyed": [
+    [
+     859,
+     "blue",
+     "green"
+    ],
+    [
+     911,
+     "blue",
+     "green"
+    ],
+    [
+     1122,
+     "red",
+     "blue"
+    ],
+    [
+     1276,
+     "blue",
+     "red"
+    ],
+    [
+     1350,
+     "red",
+     "green"
+    ]
+   ],
+   "victory": null,
+   "pacts": 3,
+   "wars": 6,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 765,
+   "won_by": "score at time limit",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 5
+  },
+  {
+   "file": "results/haiku-4-5/seed-6.jsonl",
+   "seed": 6,
+   "ticks": 903,
+   "model": "claude-haiku-4-5-20251001",
+   "winner": "green",
+   "starts": [
+    [
+     590,
+     "green"
+    ],
+    [
+     609,
+     "blue"
+    ],
+    [
+     621,
+     "yellow"
+    ],
+    [
+     703,
+     "red"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    903,
+    "green"
+   ],
+   "pacts": 4,
+   "wars": 2,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 590,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-1.jsonl",
+   "seed": 1,
+   "ticks": 673,
+   "model": "qwen3.6:27b",
+   "winner": "green",
+   "starts": [
+    [
+     365,
+     "green"
+    ],
+    [
+     396,
+     "yellow"
+    ],
+    [
+     528,
+     "red"
+    ],
+    [
+     659,
+     "blue"
+    ]
+   ],
+   "destroyed": [
+    [
+     546,
+     "blue",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    673,
+    "green"
+   ],
+   "pacts": 6,
+   "wars": 3,
+   "betrayals": 1,
+   "first_starter": "green",
+   "first_start_tick": 365,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 1
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-10.jsonl",
+   "seed": 10,
+   "ticks": 703,
+   "model": "qwen3.6:27b",
+   "winner": "yellow",
+   "starts": [
+    [
+     365,
+     "green"
+    ],
+    [
+     371,
+     "yellow"
+    ],
+    [
+     378,
+     "red"
+    ],
+    [
+     640,
+     "green"
+    ]
+   ],
+   "destroyed": [
+    [
+     414,
+     "blue",
+     "green"
+    ]
+   ],
+   "victory": [
+    703,
+    "yellow"
+   ],
+   "pacts": 1,
+   "wars": 4,
+   "betrayals": 0,
+   "first_starter": "green",
+   "first_start_tick": 365,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 1
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-11.jsonl",
+   "seed": 11,
+   "ticks": 751,
+   "model": "qwen3.6:27b",
+   "winner": "yellow",
+   "starts": [
+    [
+     446,
+     "yellow"
+    ],
+    [
+     453,
+     "red"
+    ],
+    [
+     465,
+     "green"
+    ],
+    [
+     534,
+     "blue"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    751,
+    "yellow"
+   ],
+   "pacts": 5,
+   "wars": 2,
+   "betrayals": 2,
+   "first_starter": "yellow",
+   "first_start_tick": 446,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-12.jsonl",
+   "seed": 12,
+   "ticks": 719,
+   "model": "qwen3.6:27b",
+   "winner": "blue",
+   "starts": [
+    [
+     403,
+     "red"
+    ],
+    [
+     409,
+     "blue"
+    ],
+    [
+     415,
+     "green"
+    ],
+    [
+     446,
+     "yellow"
+    ],
+    [
+     653,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     594,
+     "yellow",
+     "red"
+    ],
+    [
+     666,
+     "red",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    719,
+    "blue"
+   ],
+   "pacts": 1,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 403,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 2
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-2.jsonl",
+   "seed": 2,
+   "ticks": 815,
+   "model": "qwen3.6:27b",
+   "winner": "green",
+   "starts": [
+    [
+     484,
+     "blue"
+    ],
+    [
+     490,
+     "green"
+    ],
+    [
+     503,
+     "red"
+    ],
+    [
+     521,
+     "yellow"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    815,
+    "green"
+   ],
+   "pacts": 0,
+   "wars": 2,
+   "betrayals": 0,
+   "first_starter": "blue",
+   "first_start_tick": 484,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-3.jsonl",
+   "seed": 3,
+   "ticks": 757,
+   "model": "qwen3.6:27b",
+   "winner": "red",
+   "starts": [
+    [
+     396,
+     "yellow"
+    ],
+    [
+     453,
+     "red"
+    ],
+    [
+     459,
+     "blue"
+    ],
+    [
+     490,
+     "green"
+    ]
+   ],
+   "destroyed": [
+    [
+     441,
+     "red",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    757,
+    "red"
+   ],
+   "pacts": 2,
+   "wars": 3,
+   "betrayals": 0,
+   "first_starter": "yellow",
+   "first_start_tick": 396,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 4,
+   "sites_destroyed": 1
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-4.jsonl",
+   "seed": 4,
+   "ticks": 771,
+   "model": "qwen3.6:27b",
+   "winner": "green",
+   "starts": [
+    [
+     403,
+     "red"
+    ],
+    [
+     409,
+     "blue"
+    ],
+    [
+     465,
+     "green"
+    ],
+    [
+     496,
+     "yellow"
+    ],
+    [
+     609,
+     "blue"
+    ],
+    [
+     678,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     591,
+     "red",
+     "blue"
+    ],
+    [
+     620,
+     "yellow",
+     "red"
+    ]
+   ],
+   "victory": [
+    771,
+    "green"
+   ],
+   "pacts": 0,
+   "wars": 4,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 403,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 6,
+   "sites_destroyed": 2
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-5.jsonl",
+   "seed": 5,
+   "ticks": 1500,
+   "model": "qwen3.6:27b",
+   "winner": "red",
+   "starts": [
+    [
+     384,
+     "blue"
+    ],
+    [
+     421,
+     "yellow"
+    ],
+    [
+     565,
+     "green"
+    ],
+    [
+     646,
+     "yellow"
+    ],
+    [
+     753,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     461,
+     "green",
+     "blue"
+    ],
+    [
+     572,
+     "red",
+     "yellow"
+    ],
+    [
+     610,
+     "red",
+     "green"
+    ],
+    [
+     682,
+     "red",
+     "yellow"
+    ],
+    [
+     1428,
+     "yellow",
+     "red"
+    ]
+   ],
+   "victory": null,
+   "pacts": 5,
+   "wars": 4,
+   "betrayals": 1,
+   "first_starter": "blue",
+   "first_start_tick": 384,
+   "won_by": "score at time limit",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 5
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-6.jsonl",
+   "seed": 6,
+   "ticks": 816,
+   "model": "qwen3.6:27b",
+   "winner": "green",
+   "starts": [
+    [
+     403,
+     "red"
+    ],
+    [
+     446,
+     "yellow"
+    ],
+    [
+     484,
+     "blue"
+    ],
+    [
+     515,
+     "green"
+    ],
+    [
+     603,
+     "red"
+    ],
+    [
+     646,
+     "yellow"
+    ],
+    [
+     684,
+     "blue"
+    ]
+   ],
+   "destroyed": [
+    [
+     480,
+     "blue",
+     "red"
+    ],
+    [
+     497,
+     "green",
+     "yellow"
+    ],
+    [
+     611,
+     "red",
+     "blue"
+    ]
+   ],
+   "victory": [
+    816,
+    "green"
+   ],
+   "pacts": 3,
+   "wars": 3,
+   "betrayals": 1,
+   "first_starter": "red",
+   "first_start_tick": 403,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 7,
+   "sites_destroyed": 3
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-7.jsonl",
+   "seed": 7,
+   "ticks": 898,
+   "model": "qwen3.6:27b",
+   "winner": "green",
+   "starts": [
+    [
+     403,
+     "red"
+    ],
+    [
+     534,
+     "blue"
+    ],
+    [
+     571,
+     "yellow"
+    ],
+    [
+     590,
+     "green"
+    ],
+    [
+     771,
+     "yellow"
+    ]
+   ],
+   "destroyed": [
+    [
+     527,
+     "yellow",
+     "red"
+    ],
+    [
+     586,
+     "green",
+     "blue"
+    ],
+    [
+     678,
+     "red",
+     "yellow"
+    ]
+   ],
+   "victory": [
+    898,
+    "green"
+   ],
+   "pacts": 1,
+   "wars": 5,
+   "betrayals": 1,
+   "first_starter": "red",
+   "first_start_tick": 403,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 5,
+   "sites_destroyed": 3
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-8.jsonl",
+   "seed": 8,
+   "ticks": 1235,
+   "model": "qwen3.6:27b",
+   "winner": "blue",
+   "starts": [
+    [
+     403,
+     "red"
+    ],
+    [
+     521,
+     "yellow"
+    ],
+    [
+     578,
+     "red"
+    ],
+    [
+     646,
+     "yellow"
+    ],
+    [
+     765,
+     "green"
+    ],
+    [
+     784,
+     "blue"
+    ],
+    [
+     853,
+     "red"
+    ],
+    [
+     921,
+     "yellow"
+    ],
+    [
+     934,
+     "blue"
+    ],
+    [
+     940,
+     "green"
+    ],
+    [
+     953,
+     "red"
+    ]
+   ],
+   "destroyed": [
+    [
+     447,
+     "blue",
+     "red"
+    ],
+    [
+     548,
+     "green",
+     "yellow"
+    ],
+    [
+     636,
+     "yellow",
+     "red"
+    ],
+    [
+     673,
+     "green",
+     "yellow"
+    ],
+    [
+     852,
+     "red",
+     "green"
+    ],
+    [
+     885,
+     "blue",
+     "red"
+    ],
+    [
+     930,
+     "green",
+     "blue"
+    ]
+   ],
+   "victory": [
+    1235,
+    "blue"
+   ],
+   "pacts": 0,
+   "wars": 6,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 403,
+   "won_by": "AI Center",
+   "first_starter_won": false,
+   "sites_started": 11,
+   "sites_destroyed": 7
+  },
+  {
+   "file": "results/qwen3.6-27b/seed-9.jsonl",
+   "seed": 9,
+   "ticks": 654,
+   "model": "qwen3.6:27b",
+   "winner": "red",
+   "starts": [
+    [
+     353,
+     "red"
+    ],
+    [
+     421,
+     "yellow"
+    ],
+    [
+     440,
+     "green"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    654,
+    "red"
+   ],
+   "pacts": 0,
+   "wars": 2,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 353,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 3,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/sonnet-5/seed-1.jsonl",
+   "seed": 1,
+   "ticks": 623,
+   "model": "claude-sonnet-5",
+   "winner": "yellow",
+   "starts": [
+    [
+     321,
+     "yellow"
+    ],
+    [
+     334,
+     "blue"
+    ],
+    [
+     353,
+     "red"
+    ],
+    [
+     365,
+     "green"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    623,
+    "yellow"
+   ],
+   "pacts": 8,
+   "wars": 0,
+   "betrayals": 1,
+   "first_starter": "yellow",
+   "first_start_tick": 321,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/sonnet-5/seed-2.jsonl",
+   "seed": 2,
+   "ticks": 661,
+   "model": "claude-sonnet-5",
+   "winner": "red",
+   "starts": [
+    [
+     353,
+     "red"
+    ],
+    [
+     359,
+     "blue"
+    ],
+    [
+     365,
+     "green"
+    ],
+    [
+     396,
+     "yellow"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    661,
+    "red"
+   ],
+   "pacts": 6,
+   "wars": 0,
+   "betrayals": 0,
+   "first_starter": "red",
+   "first_start_tick": 353,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/sonnet-5/seed-3.jsonl",
+   "seed": 3,
+   "ticks": 630,
+   "model": "claude-sonnet-5",
+   "winner": "yellow",
+   "starts": [
+    [
+     321,
+     "yellow"
+    ],
+    [
+     340,
+     "green"
+    ],
+    [
+     359,
+     "blue"
+    ],
+    [
+     378,
+     "red"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    630,
+    "yellow"
+   ],
+   "pacts": 8,
+   "wars": 2,
+   "betrayals": 3,
+   "first_starter": "yellow",
+   "first_start_tick": 321,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/sonnet-5/seed-4.jsonl",
+   "seed": 4,
+   "ticks": 627,
+   "model": "claude-sonnet-5",
+   "winner": "yellow",
+   "starts": [
+    [
+     321,
+     "yellow"
+    ],
+    [
+     340,
+     "green"
+    ],
+    [
+     353,
+     "red"
+    ],
+    [
+     359,
+     "blue"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    627,
+    "yellow"
+   ],
+   "pacts": 10,
+   "wars": 0,
+   "betrayals": 2,
+   "first_starter": "yellow",
+   "first_start_tick": 321,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/sonnet-5/seed-5.jsonl",
+   "seed": 5,
+   "ticks": 642,
+   "model": "claude-sonnet-5",
+   "winner": "blue",
+   "starts": [
+    [
+     334,
+     "blue"
+    ],
+    [
+     340,
+     "green"
+    ],
+    [
+     346,
+     "yellow"
+    ],
+    [
+     353,
+     "red"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    642,
+    "blue"
+   ],
+   "pacts": 6,
+   "wars": 0,
+   "betrayals": 0,
+   "first_starter": "blue",
+   "first_start_tick": 334,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  },
+  {
+   "file": "results/sonnet-5/seed-6.jsonl",
+   "seed": 6,
+   "ticks": 615,
+   "model": "claude-sonnet-5",
+   "winner": "green",
+   "starts": [
+    [
+     315,
+     "green"
+    ],
+    [
+     321,
+     "yellow"
+    ],
+    [
+     328,
+     "red"
+    ],
+    [
+     334,
+     "blue"
+    ]
+   ],
+   "destroyed": [],
+   "victory": [
+    615,
+    "green"
+   ],
+   "pacts": 7,
+   "wars": 1,
+   "betrayals": 1,
+   "first_starter": "green",
+   "first_start_tick": 315,
+   "won_by": "AI Center",
+   "first_starter_won": true,
+   "sites_started": 4,
+   "sites_destroyed": 0
+  }
+ ],
+ "totals": {
+  "gemma4:26b": {
+   "games": 12,
+   "won_by_ai_center": 12,
+   "first_starter_won": 4,
+   "sites_started": 52,
+   "sites_destroyed": 12,
+   "median_ticks": 650.5,
+   "pacts": 3,
+   "wars": 42,
+   "betrayals": 0
+  },
+  "gpt-oss:20b": {
+   "games": 12,
+   "won_by_ai_center": 10,
+   "first_starter_won": 2,
+   "sites_started": 74,
+   "sites_destroyed": 49,
+   "median_ticks": 954.5,
+   "pacts": 17,
+   "wars": 60,
+   "betrayals": 3
+  },
+  "claude-haiku-4-5-20251001": {
+   "games": 6,
+   "won_by_ai_center": 5,
+   "first_starter_won": 1,
+   "sites_started": 30,
+   "sites_destroyed": 22,
+   "median_ticks": 1231.5,
+   "pacts": 30,
+   "wars": 25,
+   "betrayals": 7
+  },
+  "qwen3.6:27b": {
+   "games": 12,
+   "won_by_ai_center": 11,
+   "first_starter_won": 3,
+   "sites_started": 62,
+   "sites_destroyed": 25,
+   "median_ticks": 764.0,
+   "pacts": 24,
+   "wars": 41,
+   "betrayals": 6
+  },
+  "claude-sonnet-5": {
+   "games": 6,
+   "won_by_ai_center": 6,
+   "first_starter_won": 6,
+   "sites_started": 24,
+   "sites_destroyed": 0,
+   "median_ticks": 628.5,
+   "pacts": 45,
+   "wars": 3,
+   "betrayals": 7
+  }
+ }
+}

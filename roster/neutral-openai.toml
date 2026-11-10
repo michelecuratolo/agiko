@@ -1,0 +1,19 @@
+# The benchmark agent, identical to neutral.toml (same persona, same
+# persona_sha), sent to OpenAI.
+# No default model: name it per seat, with the provider's own model id:
+#   --agents red=neutral-openai@MODEL,blue=neutral-openai@MODEL,green=neutral-openai@MODEL,yellow=neutral-openai@MODEL
+# Needs:  export OPENAI_API_KEY=...
+# Check it works first (one real call, a few cents at most):
+#   python tools/check_provider.py neutral-openai@MODEL
+
+tagline = "benchmark: minimal persona, OpenAI"
+think_every = 12
+max_tokens = 8000
+provider = "openai"
+api_base = "https://api.openai.com/v1/chat/completions"
+api_key_env = "OPENAI_API_KEY"
+
+persona = """
+Your goal is to win. Choose your own strategy: any action the rules allow
+is legitimate.
+"""

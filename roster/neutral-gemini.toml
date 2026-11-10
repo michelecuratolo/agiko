@@ -1,0 +1,19 @@
+# The benchmark agent, identical to neutral.toml (same persona, same
+# persona_sha), sent to Google Gemini (OpenAI-compatible endpoint).
+# No default model: name it per seat, with the provider's own model id:
+#   --agents red=neutral-gemini@MODEL,blue=neutral-gemini@MODEL,green=neutral-gemini@MODEL,yellow=neutral-gemini@MODEL
+# Needs:  export GEMINI_API_KEY=...
+# Check it works first (one real call, a few cents at most):
+#   python tools/check_provider.py neutral-gemini@MODEL
+
+tagline = "benchmark: minimal persona, Google Gemini (OpenAI-compatible endpoint)"
+think_every = 12
+max_tokens = 8000
+provider = "openai"
+api_base = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+api_key_env = "GEMINI_API_KEY"
+
+persona = """
+Your goal is to win. Choose your own strategy: any action the rules allow
+is legitimate.
+"""

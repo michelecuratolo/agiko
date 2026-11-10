@@ -1,0 +1,45 @@
+{
+ "seed": 21,
+ "ticks": 700,
+ "seats": {
+  "red": "scripted",
+  "blue": "scripted",
+  "green": "scripted",
+  "yellow": "scripted"
+ },
+ "winner": "blue",
+ "factions": {
+  "red": {
+   "agent": "scripted",
+   "score": 1441.4,
+   "gathered": null,
+   "kills": null,
+   "betrayals": 1,
+   "alive": true
+  },
+  "blue": {
+   "agent": "scripted",
+   "score": 1499.8,
+   "gathered": null,
+   "kills": null,
+   "betrayals": 0,
+   "alive": true
+  },
+  "green": {
+   "agent": "scripted",
+   "score": 1239.8,
+   "gathered": null,
+   "kills": null,
+   "betrayals": 0,
+   "alive": true
+  },
+  "yellow": {
+   "agent": "scripted",
+   "score": 1066.4,
+   "gathered": null,
+   "kills": null,
+   "betrayals": 0,
+   "alive": true
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "seed": 5,
+ "ticks": 642,
+ "seats": {
+  "red": "neutral@sonnet",
+  "blue": "neutral@sonnet",
+  "green": "neutral@sonnet",
+  "yellow": "neutral@sonnet"
+ },
+ "winner": "blue",
+ "factions": {
+  "red": {
+   "agent": "neutral@sonnet",
+   "score": 2156.0,
+   "gathered": 5154,
+   "kills": 0,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-sonnet-5",
+   "decisions": 26,
+   "usage": {
+    "in": 39046,
+    "out": 39143,
+    "cache_write": 0,
+    "cache_read": 67262
+   },
+   "cost_usd": 0.7245
+  },
+  "blue": {
+   "agent": "neutral@sonnet",
+   "score": 2315.2,
+   "gathered": 4669,
+   "kills": 0,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-sonnet-5",
+   "decisions": 26,
+   "usage": {
+    "in": 41486,
+    "out": 34727,
+    "cache_write": 0,
+    "cache_read": 67288
+   },
+   "cost_usd": 0.6655
+  },
+  "green": {
+   "agent": "neutral@sonnet",
+   "score": 1938.0,
+   "gathered": 5084,
+   "kills": 0,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-sonnet-5",
+   "decisions": 26,
+   "usage": {
+    "in": 33398,
+    "out": 28873,
+    "cache_write": 0,
+    "cache_read": 67262
+   },
+   "cost_usd": 0.5535
+  },
+  "yellow": {
+   "agent": "neutral@sonnet",
+   "score": 2321.9,
+   "gathered": 5259,
+   "kills": 0,
+   "betrayals": 0,
+   "alive": true,
+   "model": "claude-sonnet-5",
+   "decisions": 25,
+   "usage": {
+    "in": 39523,
+    "out": 47359,
+    "cache_write": 0,
+    "cache_read": 64725
+   },
+   "cost_usd": 0.8484
+  }
+ }
+}

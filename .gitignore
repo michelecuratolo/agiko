@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.sqlite
+.DS_Store
+# your own games go here; the published benchmark games live in results/
+replays/game-*
+.env

@@ -1,0 +1,14 @@
+# The benchmark agent. Its persona is deliberately minimal and identical for
+# every model: whatever difference you see between two seats comes from the
+# model, not from the prompt. Do not add strategy hints here — use it with
+# a model per seat:  --agents red=neutral@haiku,blue=neutral@sonnet
+
+tagline = "benchmark: minimal persona, identical for every model"
+model = "claude-haiku-4-5-20251001"
+think_every = 12
+api_key_env = "ANTHROPIC_API_KEY"
+
+persona = """
+Your goal is to win. Choose your own strategy: any action the rules allow
+is legitimate.
+"""

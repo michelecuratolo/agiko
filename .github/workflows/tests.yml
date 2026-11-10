@@ -1,0 +1,21 @@
+name: tests
+on:
+  push:
+  pull_request:
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      # no dependencies: the game is standard library only, and no test uses the network
+      - run: python test_fairness.py
+      - run: python test_diplomacy.py
+      - run: python test_lockstep.py
+      - run: python test_providers.py
+      - run: python run.py --agents red=scripted,blue=scripted,green=scripted --no-render --ticks 300 --speed 0 --replay /tmp/smoke.jsonl

@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agiko</title>
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJBZ2lrbyI+CiAgPHRpdGxlPkFnaWtvPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2lsdmVyIiB4MT0iMC4xNSIgeTE9IjAiIHgyPSIwLjUiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgICBzdG9wLWNvbG9yPSIjRkZGRkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzglIiAgc3RvcC1jb2xvcj0iI0UzRUFGMSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUyJSIgIHN0b3AtY29sb3I9IiNDMkNFREEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI3NCUiICBzdG9wLWNvbG9yPSIjQTVCM0MyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg3OTZBOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CgogIDxwYXRoIGlkPSJzaGllbGQiIGQ9Ik0yNTYgOTIgTDM4NiAxMzAgVjI2OCBRMzg2IDM1NiAyNTYgNDE2IFExMjYgMzU2IDEyNiAyNjggVjEzMCBaIgogICAgICAgIGZpbGw9InVybCgjc2lsdmVyKSIgc3Ryb2tlPSIjN0Y4RUEwIiBzdHJva2Utd2lkdGg9IjQiLz4KCiAgPGNsaXBQYXRoIGlkPSJzYyI+PHVzZSBocmVmPSIjc2hpZWxkIi8+PC9jbGlwUGF0aD4KICA8ZyBjbGlwLXBhdGg9InVybCgjc2MpIiBzdHJva2U9IiM3RjhFQTAiIHN0cm9rZS13aWR0aD0iMyIgb3BhY2l0eT0iLjMiPgogICAgPHBhdGggZD0iTTI1NiA5MiBWNDE2Ii8+PHBhdGggZD0iTTEyNiAyNTQgSDM4NiIvPgogIDwvZz4KICA8ZyBjbGlwLXBhdGg9InVybCgjc2MpIj4KICAgIDxwYXRoIGQ9Ik0yNTYgOTIgSDM4NiBWMjU0IEgyNTYgWiIgZmlsbD0iI0ZGRkZGRiIgb3BhY2l0eT0iLjM0Ii8+CiAgICA8cGF0aCBkPSJNMTI2IDI1NCBIMjU2IFY0MTYgSDEyNiBaIiBmaWxsPSIjNkY3RjkyIiBvcGFjaXR5PSIuMTgiLz4KICA8L2c+CgogIDwhLS0gcm9ib3Q6IHN5bW1ldHJpYyBhYm91dCB4PTI1NiwgY2VudHJlZCBvbiB0aGUgc2hpZWxkIGNlbnRyb2lkIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsNSkiPgogIDxnIGZpbGw9IiMxMzFBMjQiPgogICAgPGNpcmNsZSBjeD0iMjU2IiBjeT0iMTY0IiByPSIxMiIvPgogICAgPHJlY3QgeD0iMjQ3IiB5PSIxNzAiIHdpZHRoPSIxOCIgaGVpZ2h0PSIyOCIgcng9IjkiLz4KICAgIDxwYXRoIGQ9Ik0yMTYgMTk2CiAgICAgICAgICAgICBoODAgYTIyIDIyIDAgMCAxIDIyIDIyCiAgICAgICAgICAgICB2NDggYTM4IDM4IDAgMCAxIC0yMiAzNAogICAgICAgICAgICAgbC0yNCAxNiBhMjAgMjAgMCAwIDEgLTMyIDAKICAgICAgICAgICAgIGwtMjQgLTE2IGEzOCAzOCAwIDAgMSAtMjIgLTM0CiAgICAgICAgICAgICB2LTQ4IGEyMiAyMiAwIDAgMSAyMiAtMjIgeiIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSIyNTYiIGN5PSIxNjQiIHI9IjYiIGZpbGw9IiNBOURDRjAiLz4KICA8ZyBmaWxsPSIjRENGMEY4Ij4KICAgIDxyZWN0IHg9IjIxMiIgeT0iMjM0IiB3aWR0aD0iMzkiIGhlaWdodD0iMTUiIHJ4PSI3LjUiLz4KICAgIDxyZWN0IHg9IjI2MSIgeT0iMjM0IiB3aWR0aD0iMzkiIGhlaWdodD0iMTUiIHJ4PSI3LjUiLz4KICA8L2c+CiAgPC9nPgo8L3N2Zz4K">
+<style>
+  :root {
+    --paper: #E6E9E2;
+    --paper-2: #DDE1D8;
+    --ink: #1C2B24;
+    --ink-soft: #5D6C64;
+    --rule: #B9C0B4;
+    --act: #2447B8;
+    --act-soft: #D9DFF3;
+    --bad: #A12B2B;
+    --water: #B6CBD5; --forest: #9DAB8E; --gold: #DDC27C; --berry: #CC959F;
+    --f-red: #C7362F; --f-blue: #2447B8; --f-green: #2E8B4A;
+    --f-yellow: #A8641B; --f-purple: #7B3FA0; --f-cyan: #1E8FA0;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); color: var(--ink);
+    font: 15px/1.45 var(--sans); }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; letter-spacing: .01em; }
+  h1 { font-size: 28px; white-space: nowrap; display: flex; align-items: center; gap: 10px; }
+  h1 img { border-radius: 0; }
+  h2 { font-size: 21px; margin-bottom: 14px; }
+  a { color: var(--act); }
+  button, select, input, textarea { font: inherit; color: inherit; }
+  button { background: var(--ink); color: var(--paper); border: 0; padding: 8px 16px;
+    cursor: pointer; border-radius: 3px; }
+  button:hover { background: #2E4238; }
+  button.quiet { background: transparent; color: var(--ink); border: 1px solid var(--rule); }
+  button.quiet:hover { border-color: var(--ink); background: transparent; }
+  button.danger { background: transparent; color: var(--bad); border: 1px solid var(--rule); }
+  button:disabled { opacity: .45; cursor: default; }
+  input, select, textarea { background: #fff; border: 1px solid var(--rule); padding: 7px 9px;
+    border-radius: 3px; width: 100%; }
+  textarea { min-height: 260px; resize: vertical; font-family: var(--serif); font-size: 16px; line-height: 1.5; }
+  :focus-visible { outline: 2px solid var(--act); outline-offset: 2px; }
+  label { display: block; font-size: 13px; color: var(--ink-soft); margin: 12px 0 4px; }
+  label:first-child { margin-top: 0; }
+  .hint { font-size: 13px; color: var(--ink-soft); }
+
+  header { display: flex; align-items: baseline; gap: 28px; padding: 18px 28px 0; flex-wrap: wrap;
+    border-bottom: 1px solid var(--rule); }
+  nav { display: flex; gap: 22px; margin-left: auto; }
+  nav a { text-decoration: none; color: var(--ink-soft); padding-bottom: 12px;
+    border-bottom: 2px solid transparent; }
+  nav a.on { color: var(--ink); border-bottom-color: var(--ink); }
+  header .status { font-size: 13px; color: var(--ink-soft); margin-left: 12px; }
+  header .status.live { color: var(--f-red); }
+
+  main { padding: 26px 28px 60px; max-width: 1240px; }
+  section { display: none; }
+  section.on { display: block; }
+  .cols { display: grid; gap: 34px; }
+  .cols.a { grid-template-columns: 300px 1fr; }
+  .cols.r { grid-template-columns: minmax(0, 1fr) 360px; }
+  .cols.m { grid-template-columns: 420px 1fr; }
+  @media (max-width: 900px) { .cols { grid-template-columns: minmax(0, 1fr) !important; } main, header { padding-left: 16px; padding-right: 16px; } }
+  @media (max-width: 600px) { .tl { grid-template-columns: auto auto 1fr; } .tl input[type=range] { grid-column: 1 / 4; } .tick { text-align: left; } }
+
+  /* agents */
+  .alist { border-top: 1px solid var(--rule); }
+  .alist .it { padding: 10px 4px; border-bottom: 1px solid var(--rule); cursor: pointer;
+    display: grid; grid-template-columns: 10px 1fr; gap: 10px; align-items: start; }
+  .alist .it:hover, .alist .it.sel { background: var(--paper-2); }
+  .alist .dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 7px; background: var(--rule); }
+  .alist .dot.ok { background: var(--f-green); }
+  .alist b { font-weight: 600; }
+  .alist small { display: block; color: var(--ink-soft); }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .actions { display: flex; gap: 10px; margin-top: 18px; align-items: center; flex-wrap: wrap; }
+  .msg { margin-top: 12px; font-size: 14px; }
+  .msg.err { color: var(--bad); }
+  .msg.ok { color: var(--f-green); }
+
+  /* game */
+  .seat { display: grid; grid-template-columns: 14px 64px 1fr; gap: 10px; align-items: center;
+    padding: 6px 0; }
+  .sw { width: 12px; height: 12px; border-radius: 2px; }
+  .log { font-family: var(--serif); font-size: 14px; white-space: pre-wrap; background: var(--paper-2);
+    padding: 12px 14px; min-height: 120px; max-height: 300px; overflow: auto; margin-top: 12px; }
+  .rlist .it { padding: 9px 0; border-bottom: 1px solid var(--rule); display: flex; gap: 14px;
+    align-items: baseline; flex-wrap: wrap; }
+  .rlist .it .w { color: var(--ink-soft); font-size: 13px; }
+
+  /* replay */
+  .stage { background: #B4B8BE; padding: 12px; overflow: hidden; }
+  canvas { display: block; cursor: grab; touch-action: none; }
+  canvas:active { cursor: grabbing; }
+  .zoomctl { position: absolute; right: 18px; top: 18px; display: flex; flex-direction: column; gap: 4px; }
+  .zoomctl button { width: 30px; height: 30px; padding: 0; background: rgba(255,255,255,.85); font-size: 16px; }
+  .marks { position: relative; height: 10px; margin: 8px 0 -6px; }
+  .marks .mk { position: absolute; top: 0; width: 3px; height: 10px; margin-left: -1px; cursor: pointer; }
+  .marks .mk.betray { background: #C7362F; height: 12px; top: -2px; }
+  .marks .mk.war { background: #2B2622; }
+  .marks .mk.dead { background: #A39B8E; }
+  .marks .mk.ai { background: #2447B8; height: 14px; top: -4px; width: 4px; }
+  .marks .mk:hover { width: 5px; margin-left: -2px; }
+  .tl { display: grid; grid-template-columns: auto auto 1fr auto; gap: 12px; align-items: center;
+    margin-top: 12px; }
+  .tl input[type=range] { padding: 0; }
+  .tick { font-family: var(--serif); font-size: 18px; min-width: 110px; text-align: right; }
+  .board { border-top: 1px solid var(--rule); }
+  .board .f { display: grid; grid-template-columns: 12px 1fr auto; gap: 10px; padding: 9px 0;
+    border-bottom: 1px solid var(--rule); align-items: baseline; }
+  .board .f .n { font-weight: 600; }
+  .board .f .n small { font-weight: 400; color: var(--ink-soft); margin-left: 6px; }
+  .board .f .r { font-size: 13px; color: var(--ink-soft); grid-column: 2 / 4; }
+  .board .f .s { font-family: var(--serif); font-size: 18px; }
+  .board .f.dead { opacity: .45; }
+  .board .f .ai { grid-column: 2 / 4; position: relative; height: 16px; background: var(--paper-2); border-radius: 2px; overflow: hidden; margin-top: 2px; }
+  .board .f .ai > span { position: absolute; left: 0; top: 0; bottom: 0; }
+  .board .f .ai b { position: relative; font-size: 11px; line-height: 16px; padding-left: 6px; font-weight: 600; }
+  .rel { font-size: 13px; color: var(--ink-soft); margin: 10px 0 0; }
+  .rel b { color: var(--ink); font-weight: 600; }
+  .diary { margin-top: 26px; }
+  .diary h2 { font-size: 18px; }
+  .diary .e { font-family: var(--serif); font-size: 15px; line-height: 1.5; padding: 9px 0 9px 14px;
+    border-left: 3px solid var(--rule); margin-bottom: 8px; }
+  .diary .e .m { font-family: var(--sans); font-size: 12px; color: var(--ink-soft); margin-bottom: 2px; }
+  .diary .e.ev { border-left-color: var(--ink); background: var(--paper-2); padding-right: 10px; }
+  .diary .e.ev.betray { border-left-color: var(--f-red); }
+  .diary .e .err { font-family: var(--sans); font-size: 12px; color: var(--bad); margin-top: 4px; }
+  .diary .e .say { font-family: var(--sans); font-size: 13px; color: var(--ink-soft); margin-top: 4px; }
+  .diary .e .why { font-family: var(--sans); font-size: 12px; color: var(--ink-soft); margin-top: 4px; white-space: pre-wrap; }
+  .diary .e .why summary { cursor: pointer; }
+  .empty { padding: 40px 0; color: var(--ink-soft); font-family: var(--serif); font-size: 17px; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--ink-soft); margin-top: 10px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; margin-right: 5px; vertical-align: -1px; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header>
+  <h1><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJBZ2lrbyI+CiAgPHRpdGxlPkFnaWtvPC90aXRsZT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2lsdmVyIiB4MT0iMC4xNSIgeTE9IjAiIHgyPSIwLjUiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgICBzdG9wLWNvbG9yPSIjRkZGRkZGIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzglIiAgc3RvcC1jb2xvcj0iI0UzRUFGMSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUyJSIgIHN0b3AtY29sb3I9IiNDMkNFREEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI3NCUiICBzdG9wLWNvbG9yPSIjQTVCM0MyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg3OTZBOCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CgogIDxwYXRoIGlkPSJzaGllbGQiIGQ9Ik0yNTYgOTIgTDM4NiAxMzAgVjI2OCBRMzg2IDM1NiAyNTYgNDE2IFExMjYgMzU2IDEyNiAyNjggVjEzMCBaIgogICAgICAgIGZpbGw9InVybCgjc2lsdmVyKSIgc3Ryb2tlPSIjN0Y4RUEwIiBzdHJva2Utd2lkdGg9IjQiLz4KCiAgPGNsaXBQYXRoIGlkPSJzYyI+PHVzZSBocmVmPSIjc2hpZWxkIi8+PC9jbGlwUGF0aD4KICA8ZyBjbGlwLXBhdGg9InVybCgjc2MpIiBzdHJva2U9IiM3RjhFQTAiIHN0cm9rZS13aWR0aD0iMyIgb3BhY2l0eT0iLjMiPgogICAgPHBhdGggZD0iTTI1NiA5MiBWNDE2Ii8+PHBhdGggZD0iTTEyNiAyNTQgSDM4NiIvPgogIDwvZz4KICA8ZyBjbGlwLXBhdGg9InVybCgjc2MpIj4KICAgIDxwYXRoIGQ9Ik0yNTYgOTIgSDM4NiBWMjU0IEgyNTYgWiIgZmlsbD0iI0ZGRkZGRiIgb3BhY2l0eT0iLjM0Ii8+CiAgICA8cGF0aCBkPSJNMTI2IDI1NCBIMjU2IFY0MTYgSDEyNiBaIiBmaWxsPSIjNkY3RjkyIiBvcGFjaXR5PSIuMTgiLz4KICA8L2c+CgogIDwhLS0gcm9ib3Q6IHN5bW1ldHJpYyBhYm91dCB4PTI1NiwgY2VudHJlZCBvbiB0aGUgc2hpZWxkIGNlbnRyb2lkIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsNSkiPgogIDxnIGZpbGw9IiMxMzFBMjQiPgogICAgPGNpcmNsZSBjeD0iMjU2IiBjeT0iMTY0IiByPSIxMiIvPgogICAgPHJlY3QgeD0iMjQ3IiB5PSIxNzAiIHdpZHRoPSIxOCIgaGVpZ2h0PSIyOCIgcng9IjkiLz4KICAgIDxwYXRoIGQ9Ik0yMTYgMTk2CiAgICAgICAgICAgICBoODAgYTIyIDIyIDAgMCAxIDIyIDIyCiAgICAgICAgICAgICB2NDggYTM4IDM4IDAgMCAxIC0yMiAzNAogICAgICAgICAgICAgbC0yNCAxNiBhMjAgMjAgMCAwIDEgLTMyIDAKICAgICAgICAgICAgIGwtMjQgLTE2IGEzOCAzOCAwIDAgMSAtMjIgLTM0CiAgICAgICAgICAgICB2LTQ4IGEyMiAyMiAwIDAgMSAyMiAtMjIgeiIvPgogIDwvZz4KICA8Y2lyY2xlIGN4PSIyNTYiIGN5PSIxNjQiIHI9IjYiIGZpbGw9IiNBOURDRjAiLz4KICA8ZyBmaWxsPSIjRENGMEY4Ij4KICAgIDxyZWN0IHg9IjIxMiIgeT0iMjM0IiB3aWR0aD0iMzkiIGhlaWdodD0iMTUiIHJ4PSI3LjUiLz4KICAgIDxyZWN0IHg9IjI2MSIgeT0iMjM0IiB3aWR0aD0iMzkiIGhlaWdodD0iMTUiIHJ4PSI3LjUiLz4KICA8L2c+CiAgPC9nPgo8L3N2Zz4K" width="30" height="30" alt="">Agiko</h1>
+  <span class="status" id="hstatus"></span>
+  <nav>
+    <a href="#agents" data-tab="agents">Agents</a>
+    <a href="#game" data-tab="game">Game</a>
+    <a href="#replay" data-tab="replay">Replay</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============================ AGENTS ============================ -->
+<section id="s-agents">
+  <div class="cols a">
+    <div>
+      <div class="actions" style="margin:0 0 12px">
+        <button class="quiet" id="newAgent">New agent</button>
+      </div>
+      <div class="alist" id="alist"></div>
+      <p class="hint" style="margin-top:12px">A green dot means the agent's API key is visible
+        to the environment <code>serve.py</code> runs in.</p>
+    </div>
+    <div>
+      <h2 id="edTitle">New agent</h2>
+      <div class="row">
+        <div>
+          <label for="aName">Name (lowercase, no spaces)</label>
+          <input id="aName" placeholder="e.g. rebel">
+        </div>
+        <div>
+          <label for="aTag">In half a line</label>
+          <input id="aTag" placeholder="e.g. early rush, betrays when it pays">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="aModel">Model</label>
+          <input id="aModel" value="claude-sonnet-5">
+        </div>
+        <div>
+          <label for="aThink">Decides every N ticks (3–60)</label>
+          <input id="aThink" type="number" min="3" max="60" value="12">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="aProv">Protocol</label>
+          <select id="aProv">
+            <option value="anthropic">Anthropic</option>
+            <option value="openai">OpenAI / Ollama / LM Studio</option>
+          </select>
+        </div>
+        <div>
+          <label for="aBase">Server address (empty = official)</label>
+          <input id="aBase" placeholder="http://localhost:11434/v1/chat/completions">
+        </div>
+      </div>
+      <label for="aEnv">Environment variable holding the API key</label>
+      <input id="aEnv" value="ANTHROPIC_API_KEY">
+      <p class="hint" id="aEnvHint">This takes the variable's <em>name</em>, never the key. Every
+        participant sets their own before starting the server, so they pay for their own calls.</p>
+      <label for="aPersona">Personality</label>
+      <textarea id="aPersona" placeholder="Write in the second person. The four things that really change behaviour: the priority between economy and mechs, how much it trusts, what it does when behind, when it decides to attack."></textarea>
+      <div class="actions">
+        <button id="saveAgent">Save agent</button>
+        <button class="danger" id="delAgent" style="display:none">Delete</button>
+        <span class="msg" id="aMsg"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ GAME ============================ -->
+<section id="s-game">
+  <div class="cols m">
+    <div>
+      <h2>Line-up</h2>
+      <div id="seats"></div>
+      <div class="row" style="margin-top:14px">
+        <div><label for="mTicks">Length (ticks)</label><input id="mTicks" type="number" value="1500" min="100" max="5000"></div>
+        <div><label for="mSpeed">Seconds per tick</label><input id="mSpeed" type="number" value="0.5" min="0.002" max="2" step="0.05"></div>
+      </div>
+      <label for="mSeed">Map seed (empty = random)</label>
+      <input id="mSeed" placeholder="e.g. 42">
+      <div class="actions">
+        <button id="startGame">Start game</button>
+        <button class="quiet" id="stopGame" style="display:none">Stop</button>
+        <button class="quiet" id="watchGame" style="display:none">Watch</button>
+        <span class="msg" id="mMsg"></span>
+      </div>
+      <div class="log" id="mLog">No game in progress.</div>
+    </div>
+    <div>
+      <h2>Games played</h2>
+      <div class="rlist" id="rlist"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ REPLAY ============================ -->
+<section id="s-replay">
+  <div class="actions" style="margin:0 0 16px">
+    <select id="rSel" style="width:auto;min-width:260px"><option value="">Choose a game</option></select>
+    <input type="file" id="rFile" accept=".jsonl" style="width:auto">
+    <label style="margin:0;display:flex;align-items:center;gap:6px"><input type="checkbox" id="rFollow" style="width:auto"> follow live</label>
+  </div>
+  <div class="cols r">
+    <div>
+      <div class="stage" style="position:relative"><canvas id="cv" width="960" height="600"></canvas>
+        <div class="zoomctl"><button class="quiet" id="zin" title="Zoom in">+</button><button class="quiet" id="zout" title="Zoom out">−</button><button class="quiet" id="zfit" title="Whole map">⊡</button></div>
+      </div>
+      <div class="marks" id="marks"></div>
+      <div class="tl">
+        <button class="quiet" id="play">Play</button>
+        <select id="spd" style="width:auto"><option value="0.5">slow</option><option value="1.5" selected>normal</option><option value="5">fast</option></select>
+        <input type="range" id="scrub" min="0" max="0" value="0">
+        <div class="tick" id="tick">tick 0</div>
+      </div>
+      <div class="legend">
+        <span><i style="background:#C7362F"></i>betrayal</span>
+        <span><i style="background:#2B2622"></i>war</span>
+        <span><i style="background:#A39B8E"></i>destruction</span>
+        <span><i style="background:#2447B8"></i>AI Center</span>
+        <span>marked on the bar: click one to jump to that moment</span>
+        <span style="width:100%">roof = faction colour · diamond on the ground = footprint · circle = drone, with ring = mech, hovering = scout</span>
+        <label style="margin:0 0 0 auto;display:flex;align-items:center;gap:6px;font-size:12px"><input type="checkbox" id="rFlat" style="width:auto"> flat view</label>
+      </div>
+    </div>
+    <div>
+      <div class="board" id="board"></div>
+      <div class="rel" id="rel"></div>
+      <div class="diary">
+        <h2>Decision diary</h2>
+        <div id="diary"><div class="empty">Choose a game to read what the agents were thinking.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const SLOTS = ["red","blue","green","yellow","purple","cyan"];
+const FCOL = {red:"#C7362F",blue:"#2447B8",green:"#2E8B4A",yellow:"#A8641B",purple:"#7B3FA0",cyan:"#1E8FA0"};
+const TCOL = {".":"#D3D6DA","w":"#7FA6BD","f":"#E6B27A","g":"#C4B5EA","b":"#EFE39A"};
+const api = async (m, u, b) => {
+  const r = await fetch(u, {method:m, headers:{"Content-Type":"application/json"}, body: b?JSON.stringify(b):undefined});
+  const j = await r.json().catch(()=>({}));
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+};
+
+// ---------------- tabs ----------------
+function showTab(t) {
+  document.querySelectorAll("section").forEach(s => s.classList.toggle("on", s.id==="s-"+t));
+  window.scrollTo(0, 0);
+  document.querySelectorAll("nav a").forEach(a => a.classList.toggle("on", a.dataset.tab===t));
+  if (t==="agents") loadAgents();
+  if (t==="game") { loadAgents().then(buildSeats); loadReplays(); }
+  if (t==="replay") loadReplayList();
+}
+document.querySelectorAll("nav a").forEach(a => a.onclick = e => { e.preventDefault(); location.hash = a.dataset.tab; });
+window.addEventListener("hashchange", () => showTab(location.hash.slice(1) || "agents"));
+
+// ---------------- agents ----------------
+let agents = [], editing = null;
+async function loadAgents() {
+  agents = await api("GET", "/api/agents");
+  const L = $("#alist"); L.innerHTML = "";
+  if (!agents.length) L.innerHTML = '<div class="empty">No agents yet. Create one on the right.</div>';
+  for (const a of agents) {
+    const d = document.createElement("div");
+    d.className = "it" + (editing===a.name ? " sel" : "");
+    d.innerHTML = `<span class="dot ${a.has_key?"ok":""}" title="${a.is_local?"local model, no key needed":(a.has_key?"key found":"missing $"+a.api_key_env)}"></span>
+      <div><b>${a.name}</b>${a.is_local?' <small style="display:inline;color:var(--f-green)">local</small>':""}<small>${a.tagline||""}</small></div>`;
+    d.onclick = () => edit(a);
+    L.appendChild(d);
+  }
+  return agents;
+}
+function edit(a) {
+  editing = a ? a.name : null;
+  $("#edTitle").textContent = a ? `Edit "${a.name}"` : "New agent";
+  $("#aName").value = a?.name || ""; $("#aName").disabled = !!a;
+  $("#aTag").value = a?.tagline || ""; $("#aModel").value = a?.model || "claude-sonnet-5";
+  $("#aThink").value = a?.think_every || 12; $("#aEnv").value = a?.api_key_env || "ANTHROPIC_API_KEY";
+  $("#aProv").value = a?.provider || "anthropic"; $("#aBase").value = a?.api_base || "";
+  provHint();
+  $("#aPersona").value = a?.persona || "";
+  $("#delAgent").style.display = a ? "" : "none";
+  $("#aMsg").textContent = "";
+  document.querySelectorAll(".alist .it").forEach(el => el.classList.toggle("sel", el.querySelector("b")?.textContent===editing));
+}
+function provHint() {
+  const local = /localhost|127\.0\.0\.1/.test($("#aBase").value);
+  $("#aEnvHint").innerHTML = local
+    ? "Local server: no key needed and no cost. Make sure Ollama is running."
+    : "This takes the variable's <em>name</em>, never the key. Every participant sets their own before starting the server, so they pay for their own calls.";
+}
+$("#aBase").oninput = provHint;
+$("#aProv").onchange = () => {
+  if ($("#aProv").value === "openai" && !$("#aBase").value)
+    $("#aBase").value = "http://localhost:11434/v1/chat/completions";
+  provHint();
+};
+$("#newAgent").onclick = () => edit(null);
+$("#saveAgent").onclick = async () => {
+  const m = $("#aMsg"); m.className = "msg";
+  try {
+    const r = await api("POST", "/api/agents", {
+      name: $("#aName").value, tagline: $("#aTag").value, model: $("#aModel").value,
+      think_every: +$("#aThink").value, api_key_env: $("#aEnv").value, persona: $("#aPersona").value,
+      provider: $("#aProv").value, api_base: $("#aBase").value });
+    m.className = "msg ok"; m.textContent = `Saved to roster/${r.name}.toml`;
+    editing = r.name; $("#aName").disabled = true; $("#delAgent").style.display = "";
+    $("#edTitle").textContent = `Edit "${r.name}"`;
+    loadAgents();
+  } catch (e) { m.className = "msg err"; m.textContent = e.message; }
+};
+$("#delAgent").onclick = async () => {
+  if (!editing || !confirm(`Delete agent "${editing}"?`)) return;
+  await api("DELETE", "/api/agents/" + editing); edit(null); loadAgents();
+};
+
+// ---------------- game ----------------
+function buildSeats() {
+  const S = $("#seats"); S.innerHTML = "";
+  SLOTS.forEach((s, i) => {
+    const d = document.createElement("div"); d.className = "seat";
+    const opts = ['<option value="">—</option>', '<option value="scripted">scripted (bot)</option>']
+      .concat(agents.map(a => `<option value="${a.name}" ${a.has_key?"":"disabled"}>${a.name}${a.has_key?"":" (missing key)"}</option>`));
+    d.innerHTML = `<span class="sw" style="background:${FCOL[s]}"></span><span>${s}</span><select data-slot="${s}">${opts.join("")}</select>`;
+    if (i < 2) d.querySelector("select").value = "scripted";
+    S.appendChild(d);
+  });
+}
+$("#startGame").onclick = async () => {
+  const m = $("#mMsg"); m.className = "msg"; m.textContent = "";
+  const seats = {}; document.querySelectorAll("#seats select").forEach(s => { if (s.value) seats[s.dataset.slot] = s.value; });
+  try {
+    const body = { seats, ticks: +$("#mTicks").value, speed: +$("#mSpeed").value };
+    if ($("#mSeed").value.trim()) body.seed = +$("#mSeed").value;
+    const r = await api("POST", "/api/run", body);
+    m.className = "msg ok"; m.textContent = `Started, seed ${r.seed}`;
+    currentReplay = r.replay; pollStatus();
+  } catch (e) { m.className = "msg err"; m.textContent = e.message; }
+};
+$("#stopGame").onclick = () => api("POST", "/api/stop");
+$("#watchGame").onclick = () => { location.hash = "replay"; setTimeout(() => { $("#rSel").value = currentReplay; $("#rFollow").checked = true; openReplay(currentReplay); }, 50); };
+
+let currentReplay = null, statusTimer = null;
+async function pollStatus() {
+  clearTimeout(statusTimer);
+  const s = await api("GET", "/api/status");
+  const running = s.running;
+  $("#stopGame").style.display = running ? "" : "none";
+  $("#watchGame").style.display = s.replay ? "" : "none";
+  $("#startGame").disabled = running;
+  $("#hstatus").textContent = running ? `game in progress · ${s.elapsed}s` : "";
+  $("#hstatus").className = "status" + (running ? " live" : "");
+  if (s.replay) currentReplay = s.replay;
+  $("#mLog").textContent = (s.tail && s.tail.length) ? s.tail.join("\n")
+    : (running ? "Waiting for the first decisions…" : "No game in progress.");
+  if (running) statusTimer = setTimeout(pollStatus, 1500);
+  else { loadReplays(); }
+}
+async function loadReplays() {
+  const L = $("#rlist"); const list = await api("GET", "/api/replays"); L.innerHTML = "";
+  if (!list.length) L.innerHTML = '<div class="empty">No games yet. Start one on the left.</div>';
+  for (const r of list) {
+    const d = document.createElement("div"); d.className = "it";
+    const seats = r.seats ? Object.entries(r.seats).map(([f,a]) => `<span style="color:${FCOL[f]}">${a}</span>`).join(", ") : "in progress or interrupted";
+    d.innerHTML = `<span class="w">${r.when}</span><span>${seats}</span>
+      <span class="w">${r.winner ? "winner <b style='color:"+FCOL[r.winner]+"'>"+r.winner+"</b>" : ""}</span>
+      <a href="#replay" data-r="${r.name}">watch</a>`;
+    d.querySelector("a").onclick = e => { e.preventDefault(); location.hash = "replay"; setTimeout(() => { $("#rSel").value = r.name; openReplay(r.name); }, 50); };
+    L.appendChild(d);
+  }
+}
+
+// ---------------- replay ----------------
+let R = null;
+let pos = 0, playing = false, rafId = null, lastTs = 0, followTimer = null, loadedName = null;
+let flatView = false;
+let zoom = 1.8, panX = 0, panY = 0, dragging = null;
+const SUB = 20;                       // scrub subdivisions per snapshot
+
+// Max hit points, for the health bars (from config.py)
+const MAXHP = {worker:45, soldier:110, scout:55, town_center:900, house:130, farm:110, barracks:450, tower:320, ai_center:1200};
+const FOOT = {town_center:[2,2], barracks:[2,2], ai_center:[3,3]};
+
+// ---- geometry: everything derives from the tiles, no sprites laid on top ----
+function shade(hex, amt) {
+  const n = parseInt(hex.slice(1), 16);
+  const f = v => Math.max(0, Math.min(255, Math.round(v + (amt < 0 ? v * amt : (255 - v) * amt))));
+  return "#" + [(n >> 16) & 255, (n >> 8) & 255, n & 255].map(v => f(v).toString(16).padStart(2, "0")).join("");
+}
+// building heights in "tiles" (1 = as tall as a tile is wide)
+const HEIGHT = {house: 0.55, farm: 0.08, barracks: 0.7, tower: 1.7, town_center: 2.2, ai_center: 1.6};
+const WALL = "#B9BEC5", WALL_D = "#8E949C", GLASS = "#7FB3CF";
+// offsets inside the tile when several units share it
+const SPREAD = [[0, 0], [-0.28, -0.1], [0.28, 0.1], [-0.08, 0.3], [0.1, -0.3], [-0.3, 0.2], [0.3, -0.2]];
+
+async function loadReplayList() {
+  const list = await api("GET", "/api/replays"); const sel = $("#rSel");
+  const cur = sel.value; sel.innerHTML = '<option value="">Choose a game</option>';
+  for (const r of list) sel.innerHTML += `<option value="${r.name}">${r.name.replace(/\.jsonl$/,"")} — ${r.seats?Object.values(r.seats).join(" vs "):"…"}${r.winner?" · winner "+r.winner:""}</option>`;
+  sel.value = cur;
+}
+$("#rSel").onchange = () => openReplay($("#rSel").value);
+$("#rFile").onchange = async e => { const f = e.target.files[0]; if (f) { parseReplay(await f.text(), f.name, true); } };
+$("#rFollow").onchange = () => { if ($("#rFollow").checked && loadedName) follow(); else clearTimeout(followTimer); };
+$("#rFlat").onchange = () => { flatView = $("#rFlat").checked; render(); };
+
+async function openReplay(name) {
+  if (!name) return; loadedName = name;
+  const txt = await (await fetch("/replays/" + name, {cache:"no-store"})).text();
+  parseReplay(txt, name, true);
+  if ($("#rFollow").checked) follow();
+}
+async function follow() {
+  clearTimeout(followTimer);
+  const s = await api("GET", "/api/status");
+  const txt = await (await fetch("/replays/" + loadedName, {cache:"no-store"})).text();
+  const wasLast = pos >= (R ? R.snaps.length - 1.01 : 0);
+  parseReplay(txt, loadedName, false);
+  if (wasLast) { pos = R.snaps.length - 1; render(); }
+  if (s.running && s.replay === loadedName && $("#rFollow").checked) followTimer = setTimeout(follow, 2000);
+}
+function parseReplay(txt, name, reset) {
+  const snaps = [], decs = []; let meta = null;
+  for (const line of txt.split("\n")) {
+    if (!line.trim()) continue;
+    let d; try { d = JSON.parse(line); } catch { continue; }
+    if (d.meta) meta = d.meta; else if (d.snapshot) snaps.push(d.snapshot); else if (d.faction) decs.push(d);
+  }
+  if (!meta) { $("#diary").innerHTML = '<div class="empty">This file is not an Agiko replay.</div>'; return; }
+  R = { meta, snaps, decs };
+  $("#scrub").max = Math.max(0, (snaps.length - 1) * SUB);
+  if (reset) pos = 0;
+  pos = Math.min(pos, Math.max(0, snaps.length - 1));
+  drawMarks(); render();
+}
+
+// ---- mark wars and betrayals on the timeline ----
+function drawMarks() {
+  const M = $("#marks"); M.innerHTML = "";
+  const n = R.snaps.length - 1; if (n <= 0) return;
+  R.snaps.forEach((s, i) => {
+    for (const l of (s.log || [])) {
+      const betray = /BETRAYAL|betray|breaks/i.test(l), war = /declares war/i.test(l), dead = /eliminated|destroyed/i.test(l), ai = /AI Center|VICTORY/i.test(l);
+      if (!betray && !war && !dead && !ai) continue;
+      const m = document.createElement("span");
+      m.className = "mk " + (ai ? "ai" : betray ? "betray" : war ? "war" : "dead");
+      m.style.left = (100 * i / n) + "%"; m.title = l.replace(/^\[t\d+\]\s*/, "");
+      m.onclick = () => { pos = i; playing = false; $("#play").textContent = "Play"; render(); };
+      M.appendChild(m);
+    }
+  });
+}
+
+// ---- interpolated state between two snapshots ----
+function frame(p) {
+  const n = R.snaps.length; if (!n) return null;
+  const i = Math.max(0, Math.min(n - 1, Math.floor(p))), j = Math.min(n - 1, i + 1), f = Math.min(1, Math.max(0, p - i));
+  const a = R.snaps[i], b = R.snaps[j];
+  const base = f < 0.5 ? a : b;
+  const inB = new Map(b.units.map(u => [u[0], u]));
+  const units = [];
+  for (const u of a.units) {
+    const v = inB.get(u[0]);
+    if (v) units.push({ id:u[0], f:u[1], kind:u[2], x:u[3] + (v[3] - u[3]) * f, y:u[4] + (v[4] - u[4]) * f,
+                        hp:u[5] + (v[5] - u[5]) * f, flip: v[3] < u[3], alpha:1 });
+    else units.push({ id:u[0], f:u[1], kind:u[2], x:u[3], y:u[4], hp:u[5], flip:false, alpha: 1 - f });
+  }
+  const inA = new Set(a.units.map(u => u[0]));
+  for (const v of b.units) if (!inA.has(v[0]) && f > 0.4) units.push({ id:v[0], f:v[1], kind:v[2], x:v[3], y:v[4], hp:v[5], flip:false, alpha:1 });
+  return { t: Math.round(a.t + (b.t - a.t) * f), units, buildings: base.buildings, res: base.res, snap: base };
+}
+
+function render() {
+  if (!R || !R.snaps.length) { $("#tick").textContent = "tick 0"; return; }
+  const fr = frame(pos); $("#scrub").value = Math.round(pos * SUB);
+  $("#tick").textContent = `tick ${fr.t} / ${R.meta.max_ticks}`;
+  if (flatView) drawFlat(fr); else drawIso(fr);
+  drawBoard(fr.snap); drawDiary(fr.t);
+}
+
+// ---- isometric view ----
+function drawIso(fr) {
+  const cv = $("#cv"), W = R.meta.map[0], H = R.meta.map[1];
+  const dpr = window.devicePixelRatio || 1;
+  const cssW = cv.parentElement.clientWidth - 24, cssH = Math.round(cssW * 0.62);
+  const tw = Math.max(8, Math.floor(cssW * 2 / (W + H) * zoom / 2) * 2), th = tw / 2;
+  cv.style.width = cssW + "px"; cv.style.height = cssH + "px";
+  cv.width = cssW * dpr; cv.height = cssH * dpr;
+  const g = cv.getContext("2d"); g.scale(dpr, dpr);
+  const ox = cssW / 2 + panX, oy = cssH / 2 - (W + H) * th / 4 + panY;
+  const P = (x, y, z = 0) => [ox + (x - y) * tw / 2, oy + (x + y) * th / 2 - (z || 0) * tw * 0.5];
+  const onscreen = (px, py) => px > -tw * 3 && px < cssW + tw * 3 && py > -tw * 4 && py < cssH + tw * 2;
+  const poly = (pts, fill, stroke, lw = 0.6) => {
+    g.beginPath(); g.moveTo(pts[0][0], pts[0][1]); for (let i = 1; i < pts.length; i++) g.lineTo(pts[i][0], pts[i][1]); g.closePath();
+    if (fill) { g.fillStyle = fill; g.fill(); } if (stroke) { g.strokeStyle = stroke; g.lineWidth = lw; g.stroke(); }
+  };
+  // diamond of one tile or of a w x h footprint, with (x,y) as the top corner
+  const diamond = (x, y, w, h, z = 0) => [P(x, y, z), P(x + w, y, z), P(x + w, y + h, z), P(x, y + h, z)];
+
+  // ---------- floor ----------
+  const resAt = new Map(fr.res.map(r => [r[0] + "," + r[1], r[2]]));
+  for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+    const [cx, cy] = P(x + 0.5, y + 0.5); if (!onscreen(cx, cy)) continue;
+    const t = R.meta.terrain[y][x], amt = resAt.get(x + "," + y);
+    let fill = ((x + y) & 1) ? "#D6D9DD" : "#CBCFD4", stroke = "rgba(35,38,43,.28)";
+    if (t === "w") { fill = "#7FA6BD"; stroke = "#6C92A8"; }
+    else if (amt != null) {
+      const k = 0.45 + 0.55 * Math.min(1, amt / 400);
+      fill = t === "f" ? shade("#E6B27A", 1 - k) : t === "b" ? shade("#EFE39A", 1 - k) : shade("#C4B5EA", 1 - k);
+    }
+    poly(diamond(x, y, 1, 1), fill, stroke);
+  }
+
+  // ---------- objects, sorted by depth ----------
+  const objs = [];
+  for (const [x, y, amt] of fr.res) {
+    const t = R.meta.terrain[y][x]; if (t === "b" || t === "g" || t === "f") objs.push({ x, y, dz: x + y, kind: "res", t, amt });
+  }
+  for (const [id, f, kind, x, y, hp, done] of fr.buildings) {
+    const [fw, fh] = FOOT[kind] || [1, 1];
+    objs.push({ x, y, fw, fh, dz: x + y + fw + fh - 2, kind, f, hp, done, build: true });
+  }
+  // units: spread inside the tile when they share it
+  const byTile = new Map();
+  for (const u of fr.units) { const k = Math.round(u.x) + "," + Math.round(u.y); (byTile.get(k) || byTile.set(k, []).get(k)).push(u); }
+  for (const [k, list] of byTile) {
+    list.forEach((u, i) => {
+      const [dx, dy] = SPREAD[Math.min(i, SPREAD.length - 1)];
+      objs.push({ ...u, x: u.x + dx, y: u.y + dy, dz: u.x + u.y + 0.5, unit: true, extra: i === SPREAD.length - 1 ? list.length - SPREAD.length + 1 : 0 });
+    });
+  }
+  objs.sort((a, b) => a.dz - b.dz || a.y - b.y);
+
+  for (const o of objs) {
+    const [tx, ty] = P(o.x, o.y); if (!onscreen(tx, ty)) continue;
+
+    if (o.kind === "res") {                       // marker above the coloured tile
+      const [cx, cy] = P(o.x + 0.5, o.y + 0.5);
+      if (o.t === "b") {                          // turbine: pole and three blades
+        g.strokeStyle = "#2B3A2E"; g.lineWidth = 1.2; g.beginPath(); g.moveTo(cx, cy); g.lineTo(cx, cy - tw * 0.55); g.stroke();
+        for (let a = 0; a < 3; a++) { const an = -Math.PI / 2 + a * 2 * Math.PI / 3; g.beginPath(); g.moveTo(cx, cy - tw * 0.55); g.lineTo(cx + Math.cos(an) * tw * 0.22, cy - tw * 0.55 + Math.sin(an) * tw * 0.22); g.stroke(); }
+      } else if (o.t === "f") {                   // materials: stack of containers
+        poly([P(o.x + .25, o.y + .25, .22), P(o.x + .75, o.y + .25, .22), P(o.x + .75, o.y + .75, .22), P(o.x + .25, o.y + .75, .22)], "#F0A24B", "#6B3E13");
+        poly([P(o.x + .25, o.y + .75, .22), P(o.x + .75, o.y + .75, .22), P(o.x + .75, o.y + .75), P(o.x + .25, o.y + .75)], "#C97A2A", "#6B3E13");
+        poly([P(o.x + .75, o.y + .25, .22), P(o.x + .75, o.y + .75, .22), P(o.x + .75, o.y + .75), P(o.x + .75, o.y + .25)], "#A8631F", "#6B3E13");
+      } else {                                    // silicon: crystal
+        poly([[cx, cy - tw * 0.42], [cx + tw * 0.16, cy - tw * 0.1], [cx, cy + tw * 0.05], [cx - tw * 0.16, cy - tw * 0.1]], "#B9A2EE", "#5A3FA0");
+      }
+      continue;
+    }
+
+    if (o.build) {                                // every type has its own silhouette; the roof belongs to the faction
+      const col = FCOL[R.meta.colors[o.f]], { x, y, fw, fh } = o;
+      const E = "#3E434A";
+      const prism = (px, py, pw, ph, z0, z1, wl, wr, top) => {
+        poly([P(px, py + ph, z0), P(px + pw, py + ph, z0), P(px + pw, py + ph, z1), P(px, py + ph, z1)], wl, E);
+        poly([P(px + pw, py + ph, z0), P(px + pw, py, z0), P(px + pw, py, z1), P(px + pw, py + ph, z1)], wr, E);
+        if (top) poly(diamond(px, py, pw, ph, z1), top, shade(top, -0.45), 1);
+      };
+      const windows = (px, py, pw, ph, z0, z1, wcol = GLASS) => {
+        if (tw < 14) return; g.fillStyle = wcol;
+        const rows = Math.max(1, Math.floor((z1 - z0) * 2.4)), cols = Math.max(1, Math.round(pw * 2.4));
+        for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+          const u = (c + 0.5) / cols, zz = z0 + (r + 0.45) / rows * (z1 - z0);
+          const [wx, wy] = P(px + pw * u, py + ph, zz); g.fillRect(wx - tw * .045, wy - tw * .05, tw * .09, tw * .08);
+          const [vx, vy] = P(px + pw, py + ph * (1 - u), zz); g.fillRect(vx - tw * .045, vy - tw * .05, tw * .09, tw * .08);
+        }
+      };
+      g.globalAlpha = o.done ? 1 : 0.45;
+      poly(diamond(x, y, fw, fh), shade(col, 0.6), shade(col, -0.4), 1);                  // footprint on the ground
+
+      if (o.kind === "town_center") {                                                        // stepped tower
+        prism(x, y, fw, fh, 0, 0.9, "#AEB4BC", "#868C95", shade(col, 0.35));
+        windows(x, y, fw, fh, 0, 0.9);
+        const ix = x + 0.4, iy = y + 0.4, iw = fw - 0.8;
+        prism(ix, iy, iw, iw, 0.9, 2.5, "#9DC3D8", "#6E9AB3", col);
+        windows(ix, iy, iw, iw, 0.9, 2.5, "#DDEFF8");
+        const [ax, ay] = P(ix + iw / 2, iy + iw / 2, 2.5);
+        g.strokeStyle = E; g.lineWidth = 1.5; g.beginPath(); g.moveTo(ax, ay); g.lineTo(ax, ay - tw * .5); g.stroke();
+        g.fillStyle = "#E24B4A"; g.beginPath(); g.arc(ax, ay - tw * .5, tw * .05, 0, 7); g.fill();
+      } else if (o.kind === "house") {                                                        // block with a penthouse
+        prism(x, y, 1, 1, 0, 0.55, "#C7CBD1", "#9EA4AC", col);
+        windows(x, y, 1, 1, 0, 0.55);
+        prism(x + 0.25, y + 0.25, 0.5, 0.5, 0.55, 0.75, "#D8DBDF", "#B4B8BE", shade(col, 0.25));
+      } else if (o.kind === "barracks") {                                                     // sawtooth-roof shed
+        prism(x, y, fw, fh, 0, 0.5, "#8D9299", "#6C7178", null);
+        const teeth = 3, tz = 0.32;
+        for (let i = 0; i < teeth; i++) {
+          const x0 = x + fw * i / teeth, x1 = x + fw * (i + 1) / teeth;
+          poly([P(x0, y, .5), P(x1, y, .5 + tz), P(x1, y + fh, .5 + tz), P(x0, y + fh, .5)], shade(col, 0.15), shade(col, -0.45), 1);   // sloped pitch
+          poly([P(x1, y, .5), P(x1, y + fh, .5), P(x1, y + fh, .5 + tz), P(x1, y, .5 + tz)], "#7FB3CF", E);                            // vertical glazing
+        }
+        const [dx0, dy0] = P(x + fw * 0.35, y + fh, 0), [dx1, dy1] = P(x + fw * 0.65, y + fh, 0);
+        g.fillStyle = "#EC8A2E"; poly([[dx0, dy0], [dx1, dy1], P(x + fw * 0.65, y + fh, .3), P(x + fw * 0.35, y + fh, .3)], "#EC8A2E", E);   // gate
+        const [cx0, cy0] = P(x + fw * 0.85, y + fh * 0.2, .5);
+        g.fillStyle = "#4A4F56"; g.fillRect(cx0 - tw * .06, cy0 - tw * .55, tw * .12, tw * .55);
+        g.fillStyle = "rgba(200,204,209,.8)"; for (let k = 0; k < 3; k++) { g.beginPath(); g.arc(cx0 + k * tw * .07, cy0 - tw * .62 - k * tw * .09, tw * (.05 + k * .02), 0, 7); g.fill(); }
+      } else if (o.kind === "farm") {                                                         // tilted panels, no walls
+        poly(diamond(x, y, 1, 1), shade(col, 0.6), col, 1.5);
+        for (let i = 0; i < 3; i++) {
+          const yy = y + 0.12 + i * 0.28;
+          poly([P(x + .1, yy, 0), P(x + .9, yy, 0), P(x + .9, yy + .2, .16), P(x + .1, yy + .2, .16)], "#2B3F6E", "#1B2846", 0.8);
+        }
+      } else if (o.kind === "tower") {                                                        // tall cylinder with a cap
+        const cx = x + 0.5, cy = y + 0.5, rr = 0.28, n = 8;
+        const ring = z => Array.from({ length: n }, (_, i) => P(cx + rr * Math.cos(i * 2 * Math.PI / n), cy + rr * Math.sin(i * 2 * Math.PI / n), z));
+        const b0 = ring(0), b1 = ring(1.5);
+        for (let i = 0; i < n; i++) { const j = (i + 1) % n; poly([b0[i], b0[j], b1[j], b1[i]], i < n / 2 ? "#6E737B" : "#4F545B", E, 0.5); }
+        poly(b1, col, shade(col, -0.45), 1);
+        const [ax, ay] = P(cx, cy, 1.5); g.fillStyle = E; g.beginPath(); g.arc(ax, ay, tw * .09, 0, 7); g.fill();
+        g.strokeStyle = E; g.lineWidth = 2; g.beginPath(); g.moveTo(ax, ay); g.lineTo(ax + tw * .35, ay - tw * .12); g.stroke();
+      } else if (o.kind === "ai_center") {                                                    // slab, four pylons, dome
+        prism(x, y, fw, fh, 0, 0.35, "#AEB4BC", "#868C95", shade(col, 0.4));
+        for (const [px, py] of [[x + .3, y + .3], [x + fw - .5, y + .3], [x + .3, y + fh - .5], [x + fw - .5, y + fh - .5]])
+          prism(px, py, .2, .2, .35, 1.3, "#D8DBDF", "#B4B8BE", col);
+        const [dx, dy] = P(x + fw / 2, y + fh / 2, .35);
+        g.beginPath(); g.ellipse(dx, dy, tw * fw * .38, tw * fw * .19, 0, 0, 7); g.fillStyle = shade(col, 0.55); g.fill(); g.strokeStyle = shade(col, -0.3); g.lineWidth = 1; g.stroke();
+        g.beginPath(); g.ellipse(dx, dy - tw * .05, tw * fw * .38, tw * fw * .42, 0, Math.PI, 0); g.fillStyle = "rgba(127,179,207,.75)"; g.fill(); g.strokeStyle = shade(col, -0.3); g.stroke();
+        g.beginPath(); g.ellipse(dx - tw * fw * .12, dy - tw * fw * .22, tw * fw * .12, tw * fw * .08, -0.5, 0, 7); g.fillStyle = "rgba(255,255,255,.45)"; g.fill();
+      } else {
+        prism(x, y, fw, fh, 0, HEIGHT[o.kind] || 0.5, WALL, WALL_D, col);
+      }
+      g.globalAlpha = 1;
+      const zt = o.kind === "town_center" ? 2.5 : o.kind === "tower" ? 1.5 : o.kind === "ai_center" ? 1.3 : (HEIGHT[o.kind] || 0.5);
+      if (!o.done) { g.setLineDash([3, 3]); poly(diamond(x, y, fw, fh, zt), null, "#23262B", 1); g.setLineDash([]); }
+      const max = MAXHP[o.kind];
+      if (max && o.hp < max * 0.98 && o.done) {
+        const [bx0, by0] = P(x + fw / 2, y + fh / 2, zt); const bw = tw * fw * 0.8;
+        g.fillStyle = "rgba(0,0,0,.5)"; g.fillRect(bx0 - bw / 2, by0 - tw * 0.6, bw, 3);
+        g.fillStyle = o.hp / max > 0.5 ? "#6BAF4C" : o.hp / max > 0.25 ? "#D9A93A" : "#C7362F"; g.fillRect(bx0 - bw / 2, by0 - tw * 0.6, bw * o.hp / max, 3);
+      }
+      continue;
+    }
+
+    if (o.unit) {                                 // token: outlined circle, shadow on the ground
+      const col = FCOL[R.meta.colors[o.f]];
+      const [cx, cy] = P(o.x + 0.5, o.y + 0.5);
+      const r = o.kind === "soldier" ? tw * 0.17 : tw * 0.13, lift = o.kind === "scout" ? tw * 0.4 : tw * 0.12;
+      g.globalAlpha = o.alpha;
+      g.fillStyle = "rgba(0,0,0,.28)"; g.beginPath(); g.ellipse(cx, cy, r * 0.9, r * 0.45, 0, 0, 7); g.fill();
+      g.beginPath(); g.arc(cx, cy - lift, r, 0, 7); g.fillStyle = col; g.fill(); g.strokeStyle = "#23262B"; g.lineWidth = 1; g.stroke();
+      if (o.kind === "soldier") { g.beginPath(); g.arc(cx, cy - lift, r * 0.45, 0, 7); g.fillStyle = "#F2F4F6"; g.fill(); }
+      if (o.kind === "scout") { g.strokeStyle = "#23262B"; g.beginPath(); g.moveTo(cx - r * 1.4, cy - lift - r * 0.9); g.lineTo(cx + r * 1.4, cy - lift - r * 0.9); g.stroke(); }
+      if (o.extra > 0) { g.fillStyle = "#23262B"; g.font = `${Math.max(9, tw * 0.28)}px ${getComputedStyle(document.body).fontFamily}`; g.fillText("+" + o.extra, cx + r, cy - lift - r); }
+      g.globalAlpha = 1;
+      const max = MAXHP[o.kind];
+      if (max && o.hp < max * 0.98) { g.fillStyle = "rgba(0,0,0,.5)"; g.fillRect(cx - r, cy - lift - r - 4, r * 2, 2); g.fillStyle = o.hp / max > 0.5 ? "#6BAF4C" : "#C7362F"; g.fillRect(cx - r, cy - lift - r - 4, r * 2 * o.hp / max, 2); }
+    }
+  }
+}
+
+// ---- flat view (fallback) ----
+function drawFlat(fr) {
+  const cv = $("#cv"), W = R.meta.map[0], H = R.meta.map[1];
+  const dpr = window.devicePixelRatio || 1, px = cv.parentElement.clientWidth - 24;
+  cv.style.width = px + "px"; cv.style.height = (px * H / W) + "px";
+  cv.width = px * dpr; cv.height = px * (H / W) * dpr;
+  const g = cv.getContext("2d"); g.scale(dpr, dpr);
+  const c = px / W, alive = new Set(fr.res.map(r => r[0] + "," + r[1]));
+  for (let y = 0; y < H; y++) for (let x = 0; x < W; x++) {
+    const t = R.meta.terrain[y][x];
+    g.fillStyle = (t === "w" || alive.has(x + "," + y)) ? (TCOL[t] || TCOL["."]) : TCOL["."]; g.fillRect(x*c, y*c, c, c);
+  }
+  for (const [id, f, kind, x, y, hp, done] of fr.buildings) {
+    const col = FCOL[R.meta.colors[f]]; const m = kind === "town_center" ? 1 : 3; g.lineWidth = 2; g.strokeStyle = col; g.fillStyle = col;
+    if (done) g.fillRect(x*c+m, y*c+m, c-2*m, c-2*m); else g.strokeRect(x*c+m+1, y*c+m+1, c-2*m-2, c-2*m-2);
+  }
+  for (const u of fr.units) {
+    g.globalAlpha = u.alpha; g.beginPath(); g.arc(u.x*c+c/2, u.y*c+c/2, u.kind === "soldier" ? c*0.32 : c*0.22, 0, 7);
+    g.fillStyle = FCOL[R.meta.colors[u.f]]; g.fill(); g.globalAlpha = 1;
+  }
+}
+
+function drawBoard(s) {
+  const B = $("#board"); B.innerHTML = "";
+  const rows = Object.entries(s.factions).sort((a, b) => b[1].score - a[1].score);
+  for (const [f, v] of rows) {
+    const d = document.createElement("div"); d.className = "f" + (v.alive ? "" : " dead");
+    d.innerHTML = `<span class="sw" style="background:${FCOL[R.meta.colors[f]]}"></span>
+      <span class="n">${f}<small>${R.meta.agents[f]}</small></span><span class="s">${Math.round(v.score)}</span>
+      <span class="r">energy ${v.res.food} · materials ${v.res.wood} · chips ${v.res.gold}${v.betrayals?` · betrayals ${v.betrayals}`:""}${v.alive?"":" · eliminated"}</span>
+      ${v.ai != null ? `<span class="ai"><span style="width:${v.ai}%;background:${FCOL[R.meta.colors[f]]}"></span><b>AI Center ${v.ai}%</b></span>` : ""}`;
+    B.appendChild(d);
+  }
+  const rel = Object.entries(s.relations).filter(([k, v]) => v !== "neutral")
+    .map(([k, v]) => { const [a, b] = k.split("|"); const w = {war:"at war with", alliance:"allied with", truce:"in a truce with"}[v] || v; return `<b>${a}</b> ${w} <b>${b}</b>`; });
+  $("#rel").innerHTML = rel.length ? rel.join("<br>") : "No pacts and no wars.";
+}
+function drawDiary(t) {
+  const items = [];
+  for (const d of R.decs) if (d.t <= t && (d.plan || d.reasoning || (d.errors && d.errors.length))) items.push({t: d.t, k: "dec", d});
+  for (const s of R.snaps) if (s.t <= t) for (const l of (s.log || [])) items.push({t: s.t, k: "ev", l});
+  items.sort((a, b) => b.t - a.t);
+  const D = $("#diary"); D.innerHTML = "";
+  if (!items.length) { D.innerHTML = '<div class="empty">Nothing yet: the agents are observing.</div>'; return; }
+  for (const it of items.slice(0, 40)) {
+    const e = document.createElement("div");
+    if (it.k === "ev") {
+      const betray = /BETRAYAL|betray|breaks/i.test(it.l);
+      e.className = "e ev" + (betray ? " betray" : ""); e.textContent = it.l.replace(/^\[t\d+\]\s*/, "");
+      e.insertAdjacentHTML("afterbegin", `<div class="m">tick ${it.t}</div>`);
+    } else {
+      const d = it.d, col = FCOL[R.meta.colors[d.faction]];
+      e.className = "e"; e.style.borderLeftColor = col;
+      // what it said to the others, in the same turn
+      const talk = (d.orders || []).filter(o => o && (o.type === "message" || o.type === "propose"))
+        .map(o => {
+          const what = o.type === "propose"
+            ? `proposes ${o.treaty === "war_pact" ? "a war pact against " + esc(String(o.against || "?")) : esc(String(o.treaty || "a pact"))}`
+            : "";
+          return `<div class="say">→ <b>${esc(String(o.to || "?"))}</b> ${what}${o.text ? ": “" + esc(String(o.text)) + "”" : ""}</div>`;
+        }).join("");
+      e.innerHTML = `<div class="m">tick ${d.t} · <span style="color:${col}">${d.faction}</span> · ${R.meta.agents[d.faction]}</div>${esc(d.plan||"")}`
+        + talk
+        + (d.reasoning ? `<details class="why"><summary>reasoning</summary>${esc(d.reasoning)}</details>` : "")
+        + (d.errors && d.errors.length ? `<div class="err">${esc(d.errors.slice(0,2).join(" — "))}</div>` : "");
+    }
+    D.appendChild(e);
+  }
+}
+const esc = s => s.replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+// ---- smooth playback ----
+$("#scrub").oninput = () => { pos = +$("#scrub").value / SUB; render(); };
+$("#play").onclick = () => {
+  playing = !playing; $("#play").textContent = playing ? "Pause" : "Play";
+  if (playing) { if (pos >= R.snaps.length - 1) pos = 0; lastTs = performance.now(); rafId = requestAnimationFrame(tickAnim); }
+  else cancelAnimationFrame(rafId);
+};
+function tickAnim(ts) {
+  if (!playing || !R) return;
+  const dt = (ts - lastTs) / 1000; lastTs = ts;
+  pos += dt * (+$("#spd").value);            // speed = snapshots per second
+  if (pos >= R.snaps.length - 1) { pos = R.snaps.length - 1; playing = false; $("#play").textContent = "Play"; }
+  render();
+  if (playing) rafId = requestAnimationFrame(tickAnim);
+}
+window.addEventListener("resize", () => { if (R) render(); });
+(() => {
+  const cv = $("#cv");
+  cv.addEventListener("wheel", e => {
+    if (flatView || !R) return; e.preventDefault();
+    const z0 = zoom; zoom = Math.max(0.8, Math.min(5, zoom * (e.deltaY < 0 ? 1.15 : 1 / 1.15)));
+    const r = cv.getBoundingClientRect(), mx = e.clientX - r.left - r.width / 2, my = e.clientY - r.top - r.height / 2;
+    panX = mx - (mx - panX) * zoom / z0; panY = my - (my - panY) * zoom / z0;   // zoom around the cursor
+    render();
+  }, { passive: false });
+  cv.addEventListener("pointerdown", e => { dragging = { x: e.clientX, y: e.clientY, px: panX, py: panY }; cv.setPointerCapture(e.pointerId); });
+  cv.addEventListener("pointermove", e => { if (!dragging || flatView) return; panX = dragging.px + e.clientX - dragging.x; panY = dragging.py + e.clientY - dragging.y; render(); });
+  cv.addEventListener("pointerup", () => dragging = null);
+  cv.addEventListener("pointercancel", () => dragging = null);
+  $("#zin").onclick = () => { zoom = Math.min(5, zoom * 1.3); render(); };
+  $("#zout").onclick = () => { zoom = Math.max(0.8, zoom / 1.3); render(); };
+  $("#zfit").onclick = () => { zoom = 1; panX = 0; panY = 0; render(); };
+})();
+
+// ---------------- startup ----------------
+showTab(location.hash.slice(1) || "agents");
+pollStatus();
+</script>
+</body>
+</html>

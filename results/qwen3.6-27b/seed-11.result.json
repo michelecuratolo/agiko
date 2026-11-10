@@ -1,0 +1,81 @@
+{
+ "seed": 11,
+ "ticks": 751,
+ "seats": {
+  "red": "neutral",
+  "blue": "neutral",
+  "green": "neutral",
+  "yellow": "neutral"
+ },
+ "winner": "yellow",
+ "factions": {
+  "red": {
+   "agent": "neutral",
+   "score": 2207.2,
+   "gathered": 6105,
+   "kills": 5,
+   "betrayals": 1,
+   "alive": true,
+   "model": "qwen3.6:27b",
+   "decisions": 30,
+   "usage": {
+    "in": 91849,
+    "out": 82068,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": null
+  },
+  "blue": {
+   "agent": "neutral",
+   "score": 2427.7,
+   "gathered": 6236,
+   "kills": 0,
+   "betrayals": 1,
+   "alive": true,
+   "model": "qwen3.6:27b",
+   "decisions": 30,
+   "usage": {
+    "in": 96181,
+    "out": 88338,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": null
+  },
+  "green": {
+   "agent": "neutral",
+   "score": 2537.1,
+   "gathered": 6467,
+   "kills": 0,
+   "betrayals": 0,
+   "alive": true,
+   "model": "qwen3.6:27b",
+   "decisions": 30,
+   "usage": {
+    "in": 94487,
+    "out": 79438,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": null
+  },
+  "yellow": {
+   "agent": "neutral",
+   "score": 2536.6,
+   "gathered": 6483,
+   "kills": 5,
+   "betrayals": 0,
+   "alive": true,
+   "model": "qwen3.6:27b",
+   "decisions": 30,
+   "usage": {
+    "in": 93450,
+    "out": 81318,
+    "cache_write": 0,
+    "cache_read": 0
+   },
+   "cost_usd": null
+  }
+ }
+}

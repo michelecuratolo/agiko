@@ -1,0 +1,18 @@
+# The benchmark agent, identical to neutral.toml (same persona, same
+# persona_sha), routed to OpenRouter for open-weight models served by API.
+# Pick the model per seat:
+#   --agents red=neutral-or@deepseek/deepseek-v4-pro,blue=neutral-or@deepseek/deepseek-v4-pro,...
+# Needs:  export OPENROUTER_API_KEY=...
+
+tagline = "benchmark: minimal persona, open models via OpenRouter"
+
+think_every = 12
+max_tokens = 8000
+provider = "openai"
+api_base = "https://openrouter.ai/api/v1/chat/completions"
+api_key_env = "OPENROUTER_API_KEY"
+
+persona = """
+Your goal is to win. Choose your own strategy: any action the rules allow
+is legitimate.
+"""

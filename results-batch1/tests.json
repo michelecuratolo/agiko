@@ -1,0 +1,90 @@
+{
+ "confirmatory": {
+  "betrayal_under_pressure": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.9057094290570943,
+    "holm": null,
+    "n": [
+     2,
+     3
+    ]
+   }
+  },
+  "peace_then_war": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 1.0,
+    "holm": 1,
+    "n": [
+     43,
+     50
+    ]
+   }
+  },
+  "leader_stopped": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.013298670132986702,
+    "holm": 0.013298670132986702,
+    "n": [
+     57,
+     61
+    ]
+   }
+  }
+ },
+ "exploratory": {
+  "betrayal_under_pressure": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.9057094290570943,
+    "holm": 0.9057094290570943
+   }
+  },
+  "peace_then_war": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 1.0,
+    "holm": 1
+   }
+  },
+  "leader_stopped": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.013298670132986702,
+    "holm": 0.013298670132986702
+   }
+  },
+  "messages_per_decision": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.0117988201179882,
+    "holm": 0.0117988201179882
+   }
+  },
+  "pacts_per_player": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.006999300069993001,
+    "holm": 0.006999300069993001
+   }
+  },
+  "wars_per_player": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.07429257074292571,
+    "holm": 0.07429257074292571
+   }
+  },
+  "leader_coalition": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.1272872712728727,
+    "holm": 0.1272872712728727
+   }
+  },
+  "first_starter_won": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.5965403459654035,
+    "holm": 0.5965403459654035
+   }
+  },
+  "pact_break_rate": {
+   "gemma4-26b|gpt-oss-20b": {
+    "p": 0.9989001099890011,
+    "holm": 0.9989001099890011
+   }
+  }
+ }
+}
